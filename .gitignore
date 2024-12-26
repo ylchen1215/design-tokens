@@ -1,7 +1,3 @@
 .idea
 node_modules
 build
-
-variables.css
-variables.scss
-variables-map.scss
