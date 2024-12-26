@@ -1,6 +1,6 @@
 {
   "name": "@ylchen1215/design-tokens",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "design token lib",
   "main": "variables.css",
   "style": "variables.css",
