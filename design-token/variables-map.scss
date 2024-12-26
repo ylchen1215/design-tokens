@@ -1,0 +1,2399 @@
+
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+$system-colors-neutral-white: #ffffff !default;
+$system-colors-neutral-black: #000000 !default;
+$system-colors-neutral-transparent: rgba(255, 255, 255, 0) !default;
+$system-colors-neutral-gray-25: #fcfcfd !default;
+$system-colors-neutral-gray-50: #f9fafb !default;
+$system-colors-neutral-gray-100: #f2f4f7 !default;
+$system-colors-neutral-gray-200: #e4e7ec !default;
+$system-colors-neutral-gray-300: #d0d5dd !default;
+$system-colors-neutral-gray-400: #98a2b3 !default;
+$system-colors-neutral-gray-500: #667085 !default;
+$system-colors-neutral-gray-600: #475467 !default;
+$system-colors-neutral-gray-700: #344054 !default;
+$system-colors-neutral-gray-800: #182230 !default;
+$system-colors-neutral-gray-900: #101828 !default;
+$system-colors-neutral-gray-950: #0c111d !default;
+$system-colors-neutral-gray-blue-25: #fcfcfd !default;
+$system-colors-neutral-gray-blue-50: #f8f9fc !default;
+$system-colors-neutral-gray-blue-100: #eaecf5 !default;
+$system-colors-neutral-gray-blue-200: #d5d9eb !default;
+$system-colors-neutral-gray-blue-300: #b3b8db !default;
+$system-colors-neutral-gray-blue-400: #717bbc !default;
+$system-colors-neutral-gray-blue-500: #4e5ba6 !default;
+$system-colors-neutral-gray-blue-600: #3e4784 !default;
+$system-colors-neutral-gray-blue-700: #363f72 !default;
+$system-colors-neutral-gray-blue-800: #293056 !default;
+$system-colors-neutral-gray-blue-900: #101323 !default;
+$system-colors-neutral-gray-blue-950: #0d0f1c !default;
+$system-colors-neutral-gray-cool-25: #fcfcfd !default;
+$system-colors-neutral-gray-cool-50: #f9f9fb !default;
+$system-colors-neutral-gray-cool-100: #eff1f5 !default;
+$system-colors-neutral-gray-cool-200: #dcdfea !default;
+$system-colors-neutral-gray-cool-300: #b9c0d4 !default;
+$system-colors-neutral-gray-cool-400: #7d89b0 !default;
+$system-colors-neutral-gray-cool-500: #5d6b98 !default;
+$system-colors-neutral-gray-cool-600: #4a5578 !default;
+$system-colors-neutral-gray-cool-700: #404968 !default;
+$system-colors-neutral-gray-cool-800: #30374f !default;
+$system-colors-neutral-gray-cool-900: #111322 !default;
+$system-colors-neutral-gray-cool-950: #0e101b !default;
+$system-colors-neutral-gray-modern-25: #fcfcfd !default;
+$system-colors-neutral-gray-modern-50: #f8fafc !default;
+$system-colors-neutral-gray-modern-100: #eef2f6 !default;
+$system-colors-neutral-gray-modern-200: #e3e8ef !default;
+$system-colors-neutral-gray-modern-300: #cdd5df !default;
+$system-colors-neutral-gray-modern-400: #9aa4b2 !default;
+$system-colors-neutral-gray-modern-500: #697586 !default;
+$system-colors-neutral-gray-modern-600: #4b5565 !default;
+$system-colors-neutral-gray-modern-700: #364152 !default;
+$system-colors-neutral-gray-modern-800: #202939 !default;
+$system-colors-neutral-gray-modern-900: #121926 !default;
+$system-colors-neutral-gray-modern-950: #0d121c !default;
+$system-colors-neutral-gray-neutral-25: #fcfcfd !default;
+$system-colors-neutral-gray-neutral-50: #f9fafb !default;
+$system-colors-neutral-gray-neutral-100: #f3f4f6 !default;
+$system-colors-neutral-gray-neutral-200: #e5e7eb !default;
+$system-colors-neutral-gray-neutral-300: #d2d6db !default;
+$system-colors-neutral-gray-neutral-400: #9da4ae !default;
+$system-colors-neutral-gray-neutral-500: #6c737f !default;
+$system-colors-neutral-gray-neutral-600: #4d5761 !default;
+$system-colors-neutral-gray-neutral-700: #384250 !default;
+$system-colors-neutral-gray-neutral-800: #1f2a37 !default;
+$system-colors-neutral-gray-neutral-900: #111927 !default;
+$system-colors-neutral-gray-neutral-950: #0d121c !default;
+$system-colors-neutral-gray-iron-25: #fcfcfc !default;
+$system-colors-neutral-gray-iron-50: #fafafa !default;
+$system-colors-neutral-gray-iron-100: #f4f4f5 !default;
+$system-colors-neutral-gray-iron-200: #e4e4e7 !default;
+$system-colors-neutral-gray-iron-300: #d1d1d6 !default;
+$system-colors-neutral-gray-iron-400: #a0a0ab !default;
+$system-colors-neutral-gray-iron-500: #70707b !default;
+$system-colors-neutral-gray-iron-600: #51525c !default;
+$system-colors-neutral-gray-iron-700: #3f3f46 !default;
+$system-colors-neutral-gray-iron-800: #26272b !default;
+$system-colors-neutral-gray-iron-900: #1a1a1e !default;
+$system-colors-neutral-gray-iron-950: #131316 !default;
+$system-colors-neutral-gray-true-25: #fcfcfc !default;
+$system-colors-neutral-gray-true-50: #f7f7f7 !default;
+$system-colors-neutral-gray-true-100: #f5f5f5 !default;
+$system-colors-neutral-gray-true-200: #e5e5e5 !default;
+$system-colors-neutral-gray-true-300: #d6d6d6 !default;
+$system-colors-neutral-gray-true-400: #a3a3a3 !default;
+$system-colors-neutral-gray-true-500: #737373 !default;
+$system-colors-neutral-gray-true-600: #525252 !default;
+$system-colors-neutral-gray-true-700: #424242 !default;
+$system-colors-neutral-gray-true-800: #292929 !default;
+$system-colors-neutral-gray-true-900: #141414 !default;
+$system-colors-neutral-gray-true-950: #0f0f0f !default;
+$system-colors-neutral-gray-warm-25: #fdfdfc !default;
+$system-colors-neutral-gray-warm-50: #fafaf9 !default;
+$system-colors-neutral-gray-warm-100: #f5f5f4 !default;
+$system-colors-neutral-gray-warm-200: #e7e5e4 !default;
+$system-colors-neutral-gray-warm-300: #d7d3d0 !default;
+$system-colors-neutral-gray-warm-400: #a9a29d !default;
+$system-colors-neutral-gray-warm-500: #79716b !default;
+$system-colors-neutral-gray-warm-600: #57534e !default;
+$system-colors-neutral-gray-warm-700: #44403c !default;
+$system-colors-neutral-gray-warm-800: #292524 !default;
+$system-colors-neutral-gray-warm-900: #1c1917 !default;
+$system-colors-neutral-gray-warm-950: #171412 !default;
+$system-colors-shared-blue-light-25: #f5fbff !default;
+$system-colors-shared-blue-light-50: #f0f9ff !default;
+$system-colors-shared-blue-light-100: #e0f2fe !default;
+$system-colors-shared-blue-light-200: #b9e6fe !default;
+$system-colors-shared-blue-light-300: #7cd4fd !default;
+$system-colors-shared-blue-light-400: #36bffa !default;
+$system-colors-shared-blue-light-500: #0ba5ec !default;
+$system-colors-shared-blue-light-600: #0086c9 !default;
+$system-colors-shared-blue-light-700: #026aa2 !default;
+$system-colors-shared-blue-light-800: #065986 !default;
+$system-colors-shared-blue-light-900: #0b4a6f !default;
+$system-colors-shared-blue-light-950: #062c41 !default;
+$system-colors-shared-red-25: #fffbfa !default;
+$system-colors-shared-red-50: #fef3f2 !default;
+$system-colors-shared-red-100: #fee4e2 !default;
+$system-colors-shared-red-200: #fecdca !default;
+$system-colors-shared-red-300: #fda29b !default;
+$system-colors-shared-red-400: #f97066 !default;
+$system-colors-shared-red-500: #f04438 !default;
+$system-colors-shared-red-600: #d92d20 !default;
+$system-colors-shared-red-700: #b42318 !default;
+$system-colors-shared-red-800: #912018 !default;
+$system-colors-shared-red-900: #7a271a !default;
+$system-colors-shared-red-950: #55160c !default;
+$system-colors-shared-orange-25: #fffcf5 !default;
+$system-colors-shared-orange-50: #fffaeb !default;
+$system-colors-shared-orange-100: #fef0c7 !default;
+$system-colors-shared-orange-200: #fedf89 !default;
+$system-colors-shared-orange-300: #fec84b !default;
+$system-colors-shared-orange-400: #fdb022 !default;
+$system-colors-shared-orange-500: #f79009 !default;
+$system-colors-shared-orange-600: #dc6803 !default;
+$system-colors-shared-orange-700: #b54708 !default;
+$system-colors-shared-orange-800: #93370d !default;
+$system-colors-shared-orange-900: #7a2e0e !default;
+$system-colors-shared-orange-950: #4e1d09 !default;
+$system-colors-shared-green-25: #f6fef9 !default;
+$system-colors-shared-green-50: #ecfdf3 !default;
+$system-colors-shared-green-100: #dcfae6 !default;
+$system-colors-shared-green-200: #abefc6 !default;
+$system-colors-shared-green-300: #75e0a7 !default;
+$system-colors-shared-green-400: #47cd89 !default;
+$system-colors-shared-green-500: #17b26a !default;
+$system-colors-shared-green-600: #079455 !default;
+$system-colors-shared-green-700: #067647 !default;
+$system-colors-shared-green-800: #085d3a !default;
+$system-colors-shared-green-900: #074d31 !default;
+$system-colors-shared-green-950: #053321 !default;
+$system-colors-shared-moss-25: #fafdf7 !default;
+$system-colors-shared-moss-50: #f5fbee !default;
+$system-colors-shared-moss-100: #e6f4d7 !default;
+$system-colors-shared-moss-200: #ceeab0 !default;
+$system-colors-shared-moss-300: #acdc79 !default;
+$system-colors-shared-moss-400: #86cb3c !default;
+$system-colors-shared-moss-500: #669f2a !default;
+$system-colors-shared-moss-600: #4f7a21 !default;
+$system-colors-shared-moss-700: #3f621a !default;
+$system-colors-shared-moss-800: #335015 !default;
+$system-colors-shared-moss-900: #2b4212 !default;
+$system-colors-shared-moss-950: #1a280b !default;
+$system-colors-shared-green-light-25: #fafef5 !default;
+$system-colors-shared-green-light-50: #f3fee7 !default;
+$system-colors-shared-green-light-100: #e3fbcc !default;
+$system-colors-shared-green-light-200: #d0f8ab !default;
+$system-colors-shared-green-light-300: #a6ef67 !default;
+$system-colors-shared-green-light-400: #85e13a !default;
+$system-colors-shared-green-light-500: #66c61c !default;
+$system-colors-shared-green-light-600: #4ca30d !default;
+$system-colors-shared-green-light-700: #3b7c0f !default;
+$system-colors-shared-green-light-800: #326212 !default;
+$system-colors-shared-green-light-900: #2b5314 !default;
+$system-colors-shared-green-light-950: #15290a !default;
+$system-colors-shared-teal-25: #f6fefc !default;
+$system-colors-shared-teal-50: #f0fdf9 !default;
+$system-colors-shared-teal-100: #ccfbef !default;
+$system-colors-shared-teal-200: #99f6e0 !default;
+$system-colors-shared-teal-300: #5fe9d0 !default;
+$system-colors-shared-teal-400: #2ed3b7 !default;
+$system-colors-shared-teal-500: #15b79e !default;
+$system-colors-shared-teal-600: #0e9384 !default;
+$system-colors-shared-teal-700: #107569 !default;
+$system-colors-shared-teal-800: #125d56 !default;
+$system-colors-shared-teal-900: #134e48 !default;
+$system-colors-shared-teal-950: #0a2926 !default;
+$system-colors-shared-cyan-25: #f5feff !default;
+$system-colors-shared-cyan-50: #ecfdff !default;
+$system-colors-shared-cyan-100: #cff9fe !default;
+$system-colors-shared-cyan-200: #a5f0fc !default;
+$system-colors-shared-cyan-300: #67e3f9 !default;
+$system-colors-shared-cyan-400: #22ccee !default;
+$system-colors-shared-cyan-500: #06aed4 !default;
+$system-colors-shared-cyan-600: #088ab2 !default;
+$system-colors-shared-cyan-700: #0e7090 !default;
+$system-colors-shared-cyan-800: #155b75 !default;
+$system-colors-shared-cyan-900: #164c63 !default;
+$system-colors-shared-cyan-950: #0d2d3a !default;
+$system-colors-shared-blue-25: #f5faff !default;
+$system-colors-shared-blue-50: #eff8ff !default;
+$system-colors-shared-blue-100: #d1e9ff !default;
+$system-colors-shared-blue-200: #b2ddff !default;
+$system-colors-shared-blue-300: #84caff !default;
+$system-colors-shared-blue-400: #53b1fd !default;
+$system-colors-shared-blue-500: #2e90fa !default;
+$system-colors-shared-blue-600: #1570ef !default;
+$system-colors-shared-blue-700: #175cd3 !default;
+$system-colors-shared-blue-800: #1849a9 !default;
+$system-colors-shared-blue-900: #194185 !default;
+$system-colors-shared-blue-950: #102a56 !default;
+$system-colors-shared-blue-dark-25: #f5f8ff !default;
+$system-colors-shared-blue-dark-50: #eff4ff !default;
+$system-colors-shared-blue-dark-100: #d1e0ff !default;
+$system-colors-shared-blue-dark-200: #b2ccff !default;
+$system-colors-shared-blue-dark-300: #84adff !default;
+$system-colors-shared-blue-dark-400: #528bff !default;
+$system-colors-shared-blue-dark-500: #2970ff !default;
+$system-colors-shared-blue-dark-600: #155eef !default;
+$system-colors-shared-blue-dark-700: #004eeb !default;
+$system-colors-shared-blue-dark-800: #0040c1 !default;
+$system-colors-shared-blue-dark-900: #00359e !default;
+$system-colors-shared-blue-dark-950: #002266 !default;
+$system-colors-shared-indigo-25: #f5f8ff !default;
+$system-colors-shared-indigo-50: #eef4ff !default;
+$system-colors-shared-indigo-100: #e0eaff !default;
+$system-colors-shared-indigo-200: #c7d7fe !default;
+$system-colors-shared-indigo-300: #a4bcfd !default;
+$system-colors-shared-indigo-400: #8098f9 !default;
+$system-colors-shared-indigo-500: #6172f3 !default;
+$system-colors-shared-indigo-600: #444ce7 !default;
+$system-colors-shared-indigo-700: #3538cd !default;
+$system-colors-shared-indigo-800: #2d31a6 !default;
+$system-colors-shared-indigo-900: #2d3282 !default;
+$system-colors-shared-indigo-950: #1f235b !default;
+$system-colors-shared-violet-25: #fbfaff !default;
+$system-colors-shared-violet-50: #f5f3ff !default;
+$system-colors-shared-violet-100: #ece9fe !default;
+$system-colors-shared-violet-200: #ddd6fe !default;
+$system-colors-shared-violet-300: #c3b5fd !default;
+$system-colors-shared-violet-400: #a48afb !default;
+$system-colors-shared-violet-500: #875bf7 !default;
+$system-colors-shared-violet-600: #7839ee !default;
+$system-colors-shared-violet-700: #6927da !default;
+$system-colors-shared-violet-800: #5720b7 !default;
+$system-colors-shared-violet-900: #491c96 !default;
+$system-colors-shared-violet-950: #2e125e !default;
+$system-colors-shared-purple-25: #fafaff !default;
+$system-colors-shared-purple-50: #f4f3ff !default;
+$system-colors-shared-purple-100: #ebe9fe !default;
+$system-colors-shared-purple-200: #d9d6fe !default;
+$system-colors-shared-purple-300: #bdb4fe !default;
+$system-colors-shared-purple-400: #9b8afb !default;
+$system-colors-shared-purple-500: #7a5af8 !default;
+$system-colors-shared-purple-600: #6938ef !default;
+$system-colors-shared-purple-700: #5925dc !default;
+$system-colors-shared-purple-800: #4a1fb8 !default;
+$system-colors-shared-purple-900: #3e1c96 !default;
+$system-colors-shared-purple-950: #27115f !default;
+$system-colors-shared-fuchsia-25: #fefaff !default;
+$system-colors-shared-fuchsia-50: #fdf4ff !default;
+$system-colors-shared-fuchsia-100: #fbe8ff !default;
+$system-colors-shared-fuchsia-200: #f6d0fe !default;
+$system-colors-shared-fuchsia-300: #eeaafd !default;
+$system-colors-shared-fuchsia-400: #e478fa !default;
+$system-colors-shared-fuchsia-500: #d444f1 !default;
+$system-colors-shared-fuchsia-600: #ba24d5 !default;
+$system-colors-shared-fuchsia-700: #9f1ab1 !default;
+$system-colors-shared-fuchsia-800: #821890 !default;
+$system-colors-shared-fuchsia-900: #6f1877 !default;
+$system-colors-shared-fuchsia-950: #47104c !default;
+$system-colors-shared-pink-25: #fef6fb !default;
+$system-colors-shared-pink-50: #fdf2fa !default;
+$system-colors-shared-pink-100: #fce7f6 !default;
+$system-colors-shared-pink-200: #fcceee !default;
+$system-colors-shared-pink-300: #faa7e0 !default;
+$system-colors-shared-pink-400: #f670c7 !default;
+$system-colors-shared-pink-500: #ee46bc !default;
+$system-colors-shared-pink-600: #dd2590 !default;
+$system-colors-shared-pink-700: #c11574 !default;
+$system-colors-shared-pink-800: #9e165f !default;
+$system-colors-shared-pink-900: #851651 !default;
+$system-colors-shared-pink-950: #4e0d30 !default;
+$system-colors-shared-rose-25: #fff5f6 !default;
+$system-colors-shared-rose-50: #fff1f3 !default;
+$system-colors-shared-rose-100: #ffe4e8 !default;
+$system-colors-shared-rose-200: #fecdd6 !default;
+$system-colors-shared-rose-300: #fea3b4 !default;
+$system-colors-shared-rose-400: #fd6f8e !default;
+$system-colors-shared-rose-500: #f63d68 !default;
+$system-colors-shared-rose-600: #e31b54 !default;
+$system-colors-shared-rose-700: #c01048 !default;
+$system-colors-shared-rose-800: #a11043 !default;
+$system-colors-shared-rose-900: #89123e !default;
+$system-colors-shared-rose-950: #510b24 !default;
+$system-colors-shared-orange-dark-25: #fff9f5 !default;
+$system-colors-shared-orange-dark-50: #fff4ed !default;
+$system-colors-shared-orange-dark-100: #ffe6d5 !default;
+$system-colors-shared-orange-dark-200: #ffd6ae !default;
+$system-colors-shared-orange-dark-300: #ff9c66 !default;
+$system-colors-shared-orange-dark-400: #ff692e !default;
+$system-colors-shared-orange-dark-500: #ff4405 !default;
+$system-colors-shared-orange-dark-600: #e62e05 !default;
+$system-colors-shared-orange-dark-700: #bc1b06 !default;
+$system-colors-shared-orange-dark-800: #97180c !default;
+$system-colors-shared-orange-dark-900: #771a0d !default;
+$system-colors-shared-orange-dark-950: #57130a !default;
+$system-colors-shared-yellow-25: #fefdf0 !default;
+$system-colors-shared-yellow-50: #fefbe8 !default;
+$system-colors-shared-yellow-100: #fef7c3 !default;
+$system-colors-shared-yellow-200: #feee95 !default;
+$system-colors-shared-yellow-300: #fde272 !default;
+$system-colors-shared-yellow-400: #fac515 !default;
+$system-colors-shared-yellow-500: #eaaa08 !default;
+$system-colors-shared-yellow-600: #ca8504 !default;
+$system-colors-shared-yellow-700: #a15c07 !default;
+$system-colors-shared-yellow-800: #854a0e !default;
+$system-colors-shared-yellow-900: #713b12 !default;
+$system-colors-shared-yellow-950: #542c0d !default;
+// Used to create a subtle skeuomorphic effect in components such as buttons and tabs.
+// 
+// This can be removed or replaced with shadow-xs if you prefer a flat style.
+$system-shadows-xs-border: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d !default;
+$system-shadows-xs: 0 1px 2px 0 #1018280d !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+$system-shadows-sm: 0 1px 3px 0 #1018281a, 0 1px 2px 0 #1018280f !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+$system-shadows-md: 0 4px 8px -2px #1018281a, 0 2px 4px -2px #1018280f !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+$system-shadows-lg: 0 12px 16px -4px #10182814, 0 4px 6px -2px #10182808 !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+$system-shadows-xl: 0 20px 24px -4px #10182814, 0 8px 8px -4px #10182808 !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+$system-shadows-2xl: 0 24px 48px -12px #1018282e !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+$system-shadows-3xl: 0 32px 64px -12px #10182824 !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
+// Used for focus states in components that also require a shadow and a subtle skeuomorphic effect. For example, buttons and tabs.
+// 
+// This can be replaced with focus-ring-shadow-xs if you prefer a flat style.
+$system-focus-rings-shadow-xs-border: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #0ba5ec !default;
+$system-focus-rings-shadow-2xs: 0 0 0 2px #ffffff, 0 0 0 4px #0ba5ec !default; // Used for focus states in components. For example toggles and checkboxes.
+$system-focus-rings-shadow-xs: 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #0ba5ec !default; // Used for focus states in components that also require a shadow. For example, buttons and tabs.
+$system-focus-rings-shadow-sm: 0 1px 3px 0 #1018281a, 0 1px 2px 0 #1018280f, 0 0 0 2px #ffffff, 0 0 0 4px #0ba5ec !default; // Used for focus states in components that also require a shadow. For example, buttons and tabs.
+$system-focus-rings-error-shadow-2xs: 0 0 0 2px #ffffff, 0 0 0 4px #f04438 !default; // Used for destructive or error focus states in components. For example, destructive button links.
+$system-focus-rings-error-shadow-xs: 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438 !default; // Used for destructive or error focus states in components that also require a shadow. For example, destructive buttons.
+// Used for focus states in destructive or error components that also require a shadow and a subtle skeuomorphic effect. For example, destructive buttons.
+// 
+// This can be replaced with focus-ring-error-shadow-xs if you prefer a flat style.
+$system-focus-rings-error-shadow-xs-border: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438 !default;
+$system-spacing-margin-1: 0.25rem !default;
+$system-spacing-margin-2: 0.5rem !default;
+$system-spacing-margin-3: 0.75rem !default;
+$system-spacing-margin-4: 1rem !default;
+$system-spacing-margin-5: 1.25rem !default;
+$system-spacing-margin-6: 1.5rem !default;
+$system-spacing-margin-7: 1.75rem !default;
+$system-spacing-margin-8: 2rem !default;
+$system-spacing-margin-9: 2.25rem !default;
+$system-spacing-margin-10: 2.5rem !default;
+$system-spacing-margin-11: 2.75rem !default;
+$system-spacing-margin-12: 3rem !default;
+$system-spacing-margin-13: 3.25rem !default;
+$system-spacing-margin-14: 3.5rem !default;
+$system-spacing-margin-16: 4rem !default;
+$system-spacing-margin-20: 5rem !default;
+$system-spacing-margin-24: 6rem !default;
+$system-spacing-margin-28: 7rem !default;
+$system-spacing-margin-32: 8rem !default;
+$system-spacing-margin-36: 9rem !default;
+$system-spacing-margin-40: 10rem !default;
+$system-spacing-margin-44: 11rem !default;
+$system-spacing-margin-48: 12rem !default;
+$system-spacing-margin-50: 12.5rem !default;
+$system-spacing-margin-52: 13rem !default;
+$system-spacing-margin-56: 14rem !default;
+$system-spacing-margin-60: 15rem !default;
+$system-spacing-margin-64: 16rem !default;
+$system-spacing-margin-72: 18rem !default;
+$system-spacing-margin-80: 20rem !default;
+$system-spacing-margin-96: 24rem !default;
+$system-spacing-margin-110: 27.5rem !default;
+$system-spacing-margin-120: 30rem !default;
+$system-spacing-margin-140: 35rem !default;
+$system-spacing-margin-160: 40rem !default;
+$system-spacing-margin-180: 45rem !default;
+$system-spacing-margin-none: 0rem !default;
+$system-spacing-margin-1px: 1px !default;
+$system-spacing-margin-2px: 2px !default;
+$system-spacing-margin-3px: 3px !default;
+$system-spacing-margin-1s: 0.375rem !default;
+$system-spacing-margin-2s: 0.625rem !default;
+$system-spacing-margin-3s: 0.875rem !default;
+$system-spacing-margin-4s: 1.125rem !default;
+$system-spacing-margin-5s: 1.375rem !default;
+$system-spacing-padding-1: 0.25rem !default;
+$system-spacing-padding-2: 0.5rem !default;
+$system-spacing-padding-3: 0.75rem !default;
+$system-spacing-padding-4: 1rem !default;
+$system-spacing-padding-5: 1.25rem !default;
+$system-spacing-padding-6: 1.5rem !default;
+$system-spacing-padding-7: 1.75rem !default;
+$system-spacing-padding-8: 2rem !default;
+$system-spacing-padding-9: 2.25rem !default;
+$system-spacing-padding-10: 2.5rem !default;
+$system-spacing-padding-11: 2.75rem !default;
+$system-spacing-padding-12: 3rem !default;
+$system-spacing-padding-13: 3.25rem !default;
+$system-spacing-padding-14: 3.5rem !default;
+$system-spacing-padding-16: 4rem !default;
+$system-spacing-padding-20: 5rem !default;
+$system-spacing-padding-24: 6rem !default;
+$system-spacing-padding-28: 7rem !default;
+$system-spacing-padding-32: 8rem !default;
+$system-spacing-padding-36: 9rem !default;
+$system-spacing-padding-40: 10rem !default;
+$system-spacing-padding-44: 11rem !default;
+$system-spacing-padding-48: 12rem !default;
+$system-spacing-padding-50: 12.5rem !default;
+$system-spacing-padding-52: 13rem !default;
+$system-spacing-padding-56: 14rem !default;
+$system-spacing-padding-60: 15rem !default;
+$system-spacing-padding-64: 16rem !default;
+$system-spacing-padding-72: 18rem !default;
+$system-spacing-padding-80: 20rem !default;
+$system-spacing-padding-96: 24rem !default;
+$system-spacing-padding-110: 27.5rem !default;
+$system-spacing-padding-120: 30rem !default;
+$system-spacing-padding-140: 35rem !default;
+$system-spacing-padding-160: 40rem !default;
+$system-spacing-padding-180: 45rem !default;
+$system-spacing-padding-none: 0rem !default;
+$system-spacing-padding-1px: 1px !default;
+$system-spacing-padding-2px: 2px !default;
+$system-spacing-padding-3px: 3px !default;
+$system-spacing-padding-1s: 0.375rem !default;
+$system-spacing-padding-2s: 0.625rem !default;
+$system-spacing-padding-3s: 0.875rem !default;
+$system-spacing-padding-4s: 1.125rem !default;
+$system-spacing-padding-5s: 1.375rem !default;
+$system-spacing-space-between-1: 0.25rem !default;
+$system-spacing-space-between-2: 0.5rem !default;
+$system-spacing-space-between-3: 0.75rem !default;
+$system-spacing-space-between-4: 1rem !default;
+$system-spacing-space-between-5: 1.25rem !default;
+$system-spacing-space-between-6: 1.5rem !default;
+$system-spacing-space-between-7: 1.75rem !default;
+$system-spacing-space-between-8: 2rem !default;
+$system-spacing-space-between-9: 2.25rem !default;
+$system-spacing-space-between-10: 2.5rem !default;
+$system-spacing-space-between-11: 2.75rem !default;
+$system-spacing-space-between-12: 3rem !default;
+$system-spacing-space-between-13: 3.25rem !default;
+$system-spacing-space-between-14: 3.5rem !default;
+$system-spacing-space-between-16: 4rem !default;
+$system-spacing-space-between-20: 5rem !default;
+$system-spacing-space-between-24: 6rem !default;
+$system-spacing-space-between-28: 7rem !default;
+$system-spacing-space-between-32: 8rem !default;
+$system-spacing-space-between-36: 9rem !default;
+$system-spacing-space-between-40: 10rem !default;
+$system-spacing-space-between-44: 11rem !default;
+$system-spacing-space-between-48: 12rem !default;
+$system-spacing-space-between-50: 12.5rem !default;
+$system-spacing-space-between-52: 13rem !default;
+$system-spacing-space-between-56: 14rem !default;
+$system-spacing-space-between-60: 15rem !default;
+$system-spacing-space-between-64: 16rem !default;
+$system-spacing-space-between-72: 18rem !default;
+$system-spacing-space-between-80: 20rem !default;
+$system-spacing-space-between-96: 24rem !default;
+$system-spacing-space-between-110: 27.5rem !default;
+$system-spacing-space-between-120: 30rem !default;
+$system-spacing-space-between-140: 35rem !default;
+$system-spacing-space-between-160: 40rem !default;
+$system-spacing-space-between-180: 45rem !default;
+$system-spacing-space-between-none: 0rem !default;
+$system-spacing-space-between-1px: 1px !default;
+$system-spacing-space-between-2px: 2px !default;
+$system-spacing-space-between-3px: 3px !default;
+$system-spacing-space-between-1s: 0.375rem !default;
+$system-spacing-space-between-2s: 0.625rem !default;
+$system-spacing-space-between-3s: 0.875rem !default;
+$system-spacing-space-between-4s: 1.125rem !default;
+$system-spacing-space-between-5s: 1.375rem !default;
+$system-border-radius-rounded-none: 0 !default;
+$system-border-radius-rounded-2px: 0.125rem !default;
+$system-border-radius-rounded-1: 0.25rem !default;
+$system-border-radius-rounded-1s: 0.375rem !default;
+$system-border-radius-rounded-2: 0.5rem !default;
+$system-border-radius-rounded-2s: 0.625rem !default;
+$system-border-radius-rounded-3: 0.75rem !default;
+$system-border-radius-rounded-4: 1rem !default;
+$system-border-radius-rounded-5: 1.25rem !default;
+$system-border-radius-rounded-6: 1.5rem !default;
+$system-border-radius-rounded-full: 9999px !default;
+$system-border-width-none: 0 !default;
+$system-border-width-thin: 0.5px !default;
+$system-border-width-regular: 1px !default;
+$system-border-width-solide: 2px !default;
+$system-size-width-1: 0.25rem !default;
+$system-size-width-2: 0.5rem !default;
+$system-size-width-3: 0.75rem !default;
+$system-size-width-4: 1rem !default;
+$system-size-width-5: 1.25rem !default;
+$system-size-width-6: 1.5rem !default;
+$system-size-width-7: 1.75rem !default;
+$system-size-width-8: 2rem !default;
+$system-size-width-9: 2.25rem !default;
+$system-size-width-10: 2.5rem !default;
+$system-size-width-11: 2.75rem !default;
+$system-size-width-12: 3rem !default;
+$system-size-width-13: 3.25rem !default;
+$system-size-width-14: 3.5rem !default;
+$system-size-width-16: 4rem !default;
+$system-size-width-20: 5rem !default;
+$system-size-width-24: 6rem !default;
+$system-size-width-28: 7rem !default;
+$system-size-width-32: 8rem !default;
+$system-size-width-36: 9rem !default;
+$system-size-width-40: 10rem !default;
+$system-size-width-44: 11rem !default;
+$system-size-width-48: 12rem !default;
+$system-size-width-50: 12.5rem !default;
+$system-size-width-52: 13rem !default;
+$system-size-width-56: 14rem !default;
+$system-size-width-60: 15rem !default;
+$system-size-width-64: 16rem !default;
+$system-size-width-72: 18rem !default;
+$system-size-width-80: 20rem !default;
+$system-size-width-96: 24rem !default;
+$system-size-width-110: 27.5rem !default;
+$system-size-width-120: 30rem !default;
+$system-size-width-140: 35rem !default;
+$system-size-width-160: 40rem !default;
+$system-size-width-180: 45rem !default;
+$system-size-width-none: 0rem !default;
+$system-size-width-1px: 1px !default;
+$system-size-width-2px: 2px !default;
+$system-size-width-3px: 3px !default;
+$system-size-width-1s: 0.375rem !default;
+$system-size-width-2s: 0.625rem !default;
+$system-size-width-3s: 0.875rem !default;
+$system-size-width-4s: 1.125rem !default;
+$system-size-width-5s: 1.375rem !default;
+$system-size-height-1: 0.25rem !default;
+$system-size-height-2: 0.5rem !default;
+$system-size-height-3: 0.75rem !default;
+$system-size-height-4: 1rem !default;
+$system-size-height-5: 1.25rem !default;
+$system-size-height-6: 1.5rem !default;
+$system-size-height-7: 1.75rem !default;
+$system-size-height-8: 2rem !default;
+$system-size-height-9: 2.25rem !default;
+$system-size-height-10: 2.5rem !default;
+$system-size-height-11: 2.75rem !default;
+$system-size-height-12: 3rem !default;
+$system-size-height-13: 3.25rem !default;
+$system-size-height-14: 3.5rem !default;
+$system-size-height-16: 4rem !default;
+$system-size-height-20: 5rem !default;
+$system-size-height-24: 6rem !default;
+$system-size-height-28: 7rem !default;
+$system-size-height-32: 8rem !default;
+$system-size-height-36: 9rem !default;
+$system-size-height-40: 10rem !default;
+$system-size-height-44: 11rem !default;
+$system-size-height-48: 12rem !default;
+$system-size-height-50: 12.5rem !default;
+$system-size-height-52: 13rem !default;
+$system-size-height-56: 14rem !default;
+$system-size-height-60: 15rem !default;
+$system-size-height-64: 16rem !default;
+$system-size-height-72: 18rem !default;
+$system-size-height-80: 20rem !default;
+$system-size-height-96: 24rem !default;
+$system-size-height-110: 27.5rem !default;
+$system-size-height-120: 30rem !default;
+$system-size-height-140: 35rem !default;
+$system-size-height-160: 40rem !default;
+$system-size-height-180: 45rem !default;
+$system-size-height-none: 0rem !default;
+$system-size-height-1px: 1px !default;
+$system-size-height-2px: 2px !default;
+$system-size-height-3px: 3px !default;
+$system-size-height-1s: 0.375rem !default;
+$system-size-height-2s: 0.625rem !default;
+$system-size-height-3s: 0.875rem !default;
+$system-size-height-4s: 1.125rem !default;
+$system-size-height-5s: 1.375rem !default;
+$system-typography-font-family-font-sans: Inter !default;
+$system-typography-font-family-font-serif: Merriweather !default;
+$system-typography-font-family-font-mono: 'JetBrains Mono' !default;
+$system-typography-font-weight-regular: 400 !default;
+$system-typography-font-weight-regular-italic-weight: 400 !default;
+$system-typography-font-weight-regular-italic-style: italic !default;
+$system-typography-font-weight-medium: 500 !default;
+$system-typography-font-weight-medium-italic-weight: 500 !default;
+$system-typography-font-weight-medium-italic-style: italic !default;
+$system-typography-font-weight-semibold: 600 !default;
+$system-typography-font-weight-semibold-italic-weight: 600 !default;
+$system-typography-font-weight-semibold-italic-style: italic !default;
+$system-typography-font-weight-bold: 700 !default;
+$system-typography-font-weight-bold-italic-weight: 700 !default;
+$system-typography-font-weight-bold-italic-style: italic !default;
+$system-typography-font-size-text-xs: 12px !default;
+$system-typography-font-size-text-sm: 14px !default;
+$system-typography-font-size-text-base: 16px !default;
+$system-typography-font-size-text-lg: 18px !default;
+$system-typography-font-size-text-xl: 20px !default;
+$system-typography-font-size-text-2xl: 24px !default;
+$system-typography-font-size-text-3xl: 30px !default;
+$system-typography-font-size-text-4xl: 36px !default;
+$system-typography-font-size-text-5xl: 48px !default;
+$system-typography-font-size-text-6xl: 60px !default;
+$system-typography-font-size-text-7xl: 72px !default;
+$system-typography-letter-spacing-tight: -0.05rem !default;
+$system-typography-letter-spacing-normal: 0em !default;
+$system-typography-letter-spacing-wide: 0.05rem !default;
+$system-typography-text-case-none: none !default;
+$system-typography-text-case-uppercase: uppercase !default;
+$system-typography-text-decoration-none: none !default;
+$system-typography-text-decoration-underline: underline !default;
+$system-line-height-leading-xs: 18 !default;
+$system-line-height-leading-sm: 20 !default;
+$system-line-height-leading-base: 24 !default;
+$system-line-height-leading-lg: 28 !default;
+$system-line-height-leading-xl: 28 !default;
+$system-line-height-leading-2xl: 32 !default;
+$system-line-height-leading-3xl: 36 !default;
+$system-line-height-leading-4xl: 40 !default;
+$system-line-height-leading-5xl: 48 !default;
+$system-line-height-leading-6xl: 60 !default;
+$system-line-height-leading-7xl: 72 !default;
+$system-system-effects-shadows-xs: rgba(16, 24, 40, 0.05) !default;
+$system-system-effects-shadows-sm-01: rgba(16, 24, 40, 0.1) !default;
+$system-system-effects-shadows-sm-02: rgba(16, 24, 40, 0.06) !default;
+$system-system-effects-shadows-md-01: rgba(16, 24, 40, 0.1) !default;
+$system-system-effects-shadows-md-02: rgba(16, 24, 40, 0.06) !default;
+$system-system-effects-shadows-lg-01: rgba(16, 24, 40, 0.08) !default;
+$system-system-effects-shadows-lg-02: rgba(16, 24, 40, 0.03) !default;
+$system-system-effects-shadows-xl-01: rgba(16, 24, 40, 0.08) !default;
+$system-system-effects-shadows-xl-02: rgba(16, 24, 40, 0.03) !default;
+$system-system-effects-shadows-2xl: rgba(16, 24, 40, 0.18) !default;
+$system-system-effects-shadows-3xl: rgba(16, 24, 40, 0.14) !default;
+$system-system-effects-shadows-border-inner-01: rgba(16, 24, 40, 0.05) !default;
+$system-system-effects-shadows-border-inner-02: rgba(16, 24, 40, 0.18) !default;
+$system-system-utility-blue-50: $system-colors-shared-blue-50 !default;
+$system-system-utility-blue-100: $system-colors-shared-blue-100 !default;
+$system-system-utility-blue-200: $system-colors-shared-blue-200 !default;
+$system-system-utility-blue-300: $system-colors-shared-blue-300 !default;
+$system-system-utility-blue-400: $system-colors-shared-blue-400 !default;
+$system-system-utility-blue-500: $system-colors-shared-blue-500 !default;
+$system-system-utility-blue-600: $system-colors-shared-blue-600 !default;
+$system-system-utility-blue-700: $system-colors-shared-blue-700 !default;
+$system-system-utility-brand-50: $system-colors-shared-blue-light-50 !default;
+$system-system-utility-brand-100: $system-colors-shared-blue-light-100 !default;
+$system-system-utility-brand-200: $system-colors-shared-blue-light-200 !default;
+$system-system-utility-brand-300: $system-colors-shared-blue-light-300 !default;
+$system-system-utility-brand-400: $system-colors-shared-blue-light-400 !default;
+$system-system-utility-brand-500: $system-colors-shared-blue-light-500 !default;
+$system-system-utility-brand-600: $system-colors-shared-blue-light-600 !default;
+$system-system-utility-brand-700: $system-colors-shared-blue-light-700 !default;
+$system-system-utility-brand-800: $system-colors-shared-blue-light-800 !default;
+$system-system-utility-brand-900: $system-colors-shared-blue-light-900 !default;
+$system-system-utility-gray-50: $system-colors-neutral-gray-50 !default;
+$system-system-utility-gray-100: $system-colors-neutral-gray-100 !default;
+$system-system-utility-gray-200: $system-colors-neutral-gray-200 !default;
+$system-system-utility-gray-300: $system-colors-neutral-gray-300 !default;
+$system-system-utility-gray-400: $system-colors-neutral-gray-400 !default;
+$system-system-utility-gray-500: $system-colors-neutral-gray-500 !default;
+$system-system-utility-gray-600: $system-colors-neutral-gray-600 !default;
+$system-system-utility-gray-700: $system-colors-neutral-gray-700 !default;
+$system-system-utility-gray-800: $system-colors-neutral-gray-800 !default;
+$system-system-utility-gray-900: $system-colors-neutral-gray-900 !default;
+$system-system-utility-error-50: $system-colors-shared-red-50 !default;
+$system-system-utility-error-100: $system-colors-shared-red-100 !default;
+$system-system-utility-error-200: $system-colors-shared-red-200 !default;
+$system-system-utility-error-300: $system-colors-shared-red-300 !default;
+$system-system-utility-error-400: $system-colors-shared-red-400 !default;
+$system-system-utility-error-500: $system-colors-shared-red-500 !default;
+$system-system-utility-error-600: $system-colors-shared-red-600 !default;
+$system-system-utility-error-700: $system-colors-shared-red-700 !default;
+$system-system-utility-warning-50: $system-colors-shared-orange-50 !default;
+$system-system-utility-warning-100: $system-colors-shared-orange-100 !default;
+$system-system-utility-warning-200: $system-colors-shared-orange-200 !default;
+$system-system-utility-warning-300: $system-colors-shared-orange-300 !default;
+$system-system-utility-warning-400: $system-colors-shared-orange-400 !default;
+$system-system-utility-warning-500: $system-colors-shared-orange-500 !default;
+$system-system-utility-warning-600: $system-colors-shared-orange-600 !default;
+$system-system-utility-warning-700: $system-colors-shared-orange-700 !default;
+$system-system-utility-success-50: $system-colors-shared-green-50 !default;
+$system-system-utility-success-100: $system-colors-shared-green-100 !default;
+$system-system-utility-success-200: $system-colors-shared-green-200 !default;
+$system-system-utility-success-300: $system-colors-shared-green-300 !default;
+$system-system-utility-success-400: $system-colors-shared-green-400 !default;
+$system-system-utility-success-500: $system-colors-shared-green-500 !default;
+$system-system-utility-success-600: $system-colors-shared-green-600 !default;
+$system-system-utility-success-700: $system-colors-shared-green-700 !default;
+$system-system-utility-blue-dark-50: $system-colors-shared-blue-dark-50 !default;
+$system-system-utility-blue-dark-100: $system-colors-shared-blue-dark-100 !default;
+$system-system-utility-blue-dark-200: $system-colors-shared-blue-dark-200 !default;
+$system-system-utility-blue-dark-300: $system-colors-shared-blue-dark-300 !default;
+$system-system-utility-blue-dark-400: $system-colors-shared-blue-dark-400 !default;
+$system-system-utility-blue-dark-500: $system-colors-shared-blue-dark-500 !default;
+$system-system-utility-blue-dark-600: $system-colors-shared-blue-dark-600 !default;
+$system-system-utility-blue-dark-700: $system-colors-shared-blue-dark-700 !default;
+$system-system-utility-indigo-50: $system-colors-shared-indigo-50 !default;
+$system-system-utility-indigo-100: $system-colors-shared-indigo-100 !default;
+$system-system-utility-indigo-200: $system-colors-shared-indigo-200 !default;
+$system-system-utility-indigo-300: $system-colors-shared-indigo-300 !default;
+$system-system-utility-indigo-400: $system-colors-shared-indigo-400 !default;
+$system-system-utility-indigo-500: $system-colors-shared-indigo-500 !default;
+$system-system-utility-indigo-600: $system-colors-shared-indigo-600 !default;
+$system-system-utility-indigo-700: $system-colors-shared-indigo-700 !default;
+$system-system-utility-fuchsia-50: $system-colors-shared-fuchsia-50 !default;
+$system-system-utility-fuchsia-100: $system-colors-shared-fuchsia-100 !default;
+$system-system-utility-fuchsia-200: $system-colors-shared-fuchsia-200 !default;
+$system-system-utility-fuchsia-300: $system-colors-shared-fuchsia-300 !default;
+$system-system-utility-fuchsia-400: $system-colors-shared-fuchsia-400 !default;
+$system-system-utility-fuchsia-500: $system-colors-shared-fuchsia-500 !default;
+$system-system-utility-fuchsia-600: $system-colors-shared-fuchsia-600 !default;
+$system-system-utility-fuchsia-700: $system-colors-shared-fuchsia-700 !default;
+$system-system-utility-pink-50: $system-colors-shared-pink-50 !default;
+$system-system-utility-pink-100: $system-colors-shared-pink-100 !default;
+$system-system-utility-pink-200: $system-colors-shared-pink-200 !default;
+$system-system-utility-pink-300: $system-colors-shared-pink-300 !default;
+$system-system-utility-pink-400: $system-colors-shared-pink-400 !default;
+$system-system-utility-pink-500: $system-colors-shared-pink-500 !default;
+$system-system-utility-pink-600: $system-colors-shared-pink-600 !default;
+$system-system-utility-pink-700: $system-colors-shared-pink-700 !default;
+$system-system-utility-purple-50: $system-colors-shared-purple-50 !default;
+$system-system-utility-purple-100: $system-colors-shared-purple-100 !default;
+$system-system-utility-purple-200: $system-colors-shared-purple-200 !default;
+$system-system-utility-purple-300: $system-colors-shared-purple-300 !default;
+$system-system-utility-purple-400: $system-colors-shared-purple-400 !default;
+$system-system-utility-purple-500: $system-colors-shared-purple-500 !default;
+$system-system-utility-purple-600: $system-colors-shared-purple-600 !default;
+$system-system-utility-purple-700: $system-colors-shared-purple-700 !default;
+$system-system-utility-orange-50: $system-colors-shared-orange-dark-50 !default;
+$system-system-utility-orange-100: $system-colors-shared-orange-dark-100 !default;
+$system-system-utility-orange-200: $system-colors-shared-orange-dark-200 !default;
+$system-system-utility-orange-300: $system-colors-shared-orange-dark-300 !default;
+$system-system-utility-orange-400: $system-colors-shared-orange-dark-400 !default;
+$system-system-utility-orange-500: $system-colors-shared-orange-dark-500 !default;
+$system-system-utility-orange-600: $system-colors-shared-orange-dark-600 !default;
+$system-system-utility-orange-700: $system-colors-shared-orange-dark-700 !default;
+$system-system-utility-gray-blue-50: $system-colors-neutral-gray-blue-50 !default;
+$system-system-utility-gray-blue-100: $system-colors-neutral-gray-blue-100 !default;
+$system-system-utility-gray-blue-200: $system-colors-neutral-gray-blue-200 !default;
+$system-system-utility-gray-blue-300: $system-colors-neutral-gray-blue-300 !default;
+$system-system-utility-gray-blue-400: $system-colors-neutral-gray-blue-400 !default;
+$system-system-utility-gray-blue-500: $system-colors-neutral-gray-blue-500 !default;
+$system-system-utility-gray-blue-600: $system-colors-neutral-gray-blue-600 !default;
+$system-system-utility-gray-blue-700: $system-colors-neutral-gray-blue-700 !default;
+$system-system-effects-focus-rings-brand: $system-colors-shared-blue-light-500 !default;
+$system-system-effects-focus-rings-error: $system-colors-shared-red-500 !default;
+$system-system-neutral-background-primary-rest: $system-colors-neutral-white !default;
+$system-system-neutral-background-primary-hover: $system-colors-neutral-gray-100 !default;
+$system-system-neutral-background-primary-focus: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-background-primary-active: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-background-secondary-rest: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-background-secondary-rest-subtle: $system-colors-neutral-gray-25 !default;
+$system-system-neutral-background-secondary-hover: $system-colors-neutral-gray-100 !default;
+$system-system-neutral-background-secondary-focus: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-background-secondary-active: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-background-tertiary-rest: $system-colors-neutral-gray-100 !default;
+$system-system-neutral-background-quaternary-rest: $system-colors-neutral-gray-200 !default;
+$system-system-neutral-background-inverted-primary-rest: $system-colors-neutral-gray-950 !default;
+$system-system-neutral-background-inverted-secondary-rest: $system-colors-neutral-gray-600 !default;
+$system-system-neutral-background-disabled-rest: $system-colors-neutral-gray-100 !default;
+$system-system-neutral-background-disabled-rest-subtle: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-foreground-primary-rest: $system-colors-neutral-gray-700 !default;
+$system-system-neutral-foreground-primary-rest-solid: $system-colors-neutral-gray-800 !default;
+$system-system-neutral-foreground-secondary-rest: $system-colors-neutral-gray-800 !default;
+$system-system-neutral-foreground-tertiary-rest: $system-colors-neutral-gray-600 !default;
+$system-system-neutral-foreground-quaternary-rest: $system-colors-neutral-gray-500 !default;
+$system-system-neutral-foreground-quinary-rest: $system-colors-neutral-gray-400 !default;
+$system-system-neutral-foreground-senary-rest: $system-colors-neutral-gray-300 !default;
+$system-system-neutral-foreground-on-color-white: $system-colors-neutral-white !default;
+$system-system-neutral-foreground-on-color-black: $system-colors-neutral-gray-950 !default;
+$system-system-neutral-foreground-placeholder-rest: $system-colors-neutral-gray-500 !default;
+$system-system-neutral-foreground-placeholder-rest-subtle: $system-colors-neutral-gray-300 !default;
+$system-system-neutral-foreground-disabled-rest: $system-colors-neutral-gray-400 !default;
+$system-system-neutral-foreground-disabled-rest-solid: $system-colors-neutral-gray-500 !default;
+$system-system-neutral-foreground-disabled-rest-subtle: $system-colors-neutral-gray-300 !default;
+$system-system-neutral-foreground-disabled-rest-muted: $system-colors-neutral-gray-50 !default;
+$system-system-neutral-border-primary-rest: $system-colors-neutral-gray-300 !default;
+$system-system-neutral-border-primary-hover: $system-colors-neutral-gray-400 !default;
+$system-system-neutral-border-secondary-rest: $system-colors-neutral-gray-200 !default;
+$system-system-neutral-border-secondary-hover: $system-colors-neutral-gray-300 !default;
+$system-system-neutral-border-tertiary-rest: $system-colors-neutral-gray-100 !default;
+$system-system-neutral-border-disabled-rest: $system-colors-neutral-gray-300 !default;
+$system-system-neutral-border-disabled-rest-subtle: $system-colors-neutral-gray-200 !default;
+$system-system-neutral-border-divider-rest: $system-colors-neutral-gray-200 !default;
+$system-system-brand-background-primary-rest: $system-colors-neutral-white !default;
+$system-system-brand-background-primary-hover: $system-colors-shared-blue-light-50 !default;
+$system-system-brand-background-primary-focus: $system-colors-shared-blue-light-25 !default;
+$system-system-brand-background-primary-active: $system-colors-shared-blue-light-25 !default;
+$system-system-brand-background-secondary-rest: $system-colors-shared-blue-light-200 !default;
+$system-system-brand-background-secondary-rest-subtle: $system-colors-shared-blue-light-100 !default;
+$system-system-brand-background-tertiary-rest: $system-colors-shared-blue-light-300 !default;
+$system-system-brand-background-quaternary-rest: $system-colors-shared-blue-light-400 !default;
+$system-system-brand-background-inverted-primary-rest: $system-colors-shared-blue-light-400 !default;
+$system-system-brand-background-inverted-primary-hover: $system-colors-shared-blue-light-600 !default;
+$system-system-brand-background-inverted-primary-focus: $system-colors-shared-blue-light-500 !default;
+$system-system-brand-background-inverted-primary-active: $system-colors-shared-blue-light-500 !default;
+$system-system-brand-background-inverted-secondary-rest: $system-colors-shared-blue-light-800 !default;
+$system-system-brand-background-inverted-secondary-rest-subtle: $system-colors-shared-blue-light-700 !default;
+$system-system-brand-foreground-primary-rest: $system-colors-shared-blue-light-600 !default;
+$system-system-brand-foreground-primary-rest-subtle: $system-colors-shared-blue-light-500 !default;
+$system-system-brand-foreground-secondary-rest: $system-colors-shared-blue-light-500 !default;
+$system-system-brand-foreground-tertiary-rest: $system-colors-shared-blue-light-400 !default;
+$system-system-brand-foreground-inverted-primary-rest: $system-colors-shared-blue-light-200 !default;
+$system-system-brand-border-primary-rest: $system-colors-shared-blue-light-600 !default;
+$system-system-brand-border-primary-rest-subtle: $system-colors-shared-blue-light-500 !default;
+$system-system-status-error-background-primary-rest: $system-colors-shared-red-50 !default;
+$system-system-status-error-background-secondary-rest: $system-colors-shared-red-100 !default;
+$system-system-status-error-background-inverted-primary-rest: $system-colors-shared-red-600 !default;
+$system-system-status-error-background-inverted-primary-hover: $system-colors-shared-red-700 !default;
+$system-system-status-error-foreground-primary-rest: $system-colors-shared-red-600 !default;
+$system-system-status-error-foreground-secondary-rest: $system-colors-shared-red-500 !default;
+$system-system-status-error-foreground-tertiary-rest: $system-colors-shared-red-200 !default;
+$system-system-status-error-border-primary-rest: $system-colors-shared-red-500 !default;
+$system-system-status-error-border-secondary-rest: $system-colors-shared-red-300 !default;
+$system-system-status-error-border-secondary-hover: $system-colors-shared-red-400 !default;
+$system-system-status-success-background-primary-rest: $system-colors-shared-green-50 !default;
+$system-system-status-success-background-secondary-rest: $system-colors-shared-green-100 !default;
+$system-system-status-success-background-inverted-primary-rest: $system-colors-shared-green-600 !default;
+$system-system-status-success-background-inverted-primary-hover: $system-colors-shared-green-700 !default;
+$system-system-status-success-foreground-primary-rest: $system-colors-shared-green-600 !default;
+$system-system-status-success-foreground-secondary-rest: $system-colors-shared-green-500 !default;
+$system-system-status-success-foreground-tertiary-rest: $system-colors-shared-green-200 !default;
+$system-system-status-success-border-primary-rest: $system-colors-shared-green-500 !default;
+$system-system-status-success-border-secondary-rest: $system-colors-shared-green-300 !default;
+$system-system-status-success-border-secondary-hover: $system-colors-shared-green-400 !default;
+$system-system-status-warning-background-primary-rest: $system-colors-shared-orange-50 !default;
+$system-system-status-warning-background-secondary-rest: $system-colors-shared-orange-100 !default;
+$system-system-status-warning-background-inverted-primary-rest: $system-colors-shared-orange-600 !default;
+$system-system-status-warning-background-inverted-primary-hover: $system-colors-shared-orange-700 !default;
+$system-system-status-warning-foreground-primary-rest: $system-colors-shared-orange-600 !default;
+$system-system-status-warning-foreground-secondary-rest: $system-colors-shared-orange-500 !default;
+$system-system-status-warning-foreground-tertiary-rest: $system-colors-shared-orange-200 !default;
+$system-system-status-warning-border-primary-rest: $system-colors-shared-orange-500 !default;
+$system-system-status-warning-border-secondary-rest: $system-colors-shared-orange-300 !default;
+$system-system-status-warning-border-secondary-hover: $system-colors-shared-orange-400 !default;
+$system-system-spacing-margin-1: $system-spacing-margin-1 !default;
+$system-system-spacing-margin-2: $system-spacing-margin-2 !default;
+$system-system-spacing-margin-3: $system-spacing-margin-3 !default;
+$system-system-spacing-margin-4: $system-spacing-margin-4 !default;
+$system-system-spacing-margin-5: $system-spacing-margin-5 !default;
+$system-system-spacing-margin-6: $system-spacing-margin-6 !default;
+$system-system-spacing-margin-8: $system-spacing-margin-8 !default;
+$system-system-spacing-margin-9: $system-spacing-margin-9 !default;
+$system-system-spacing-margin-10: $system-spacing-margin-10 !default;
+$system-system-spacing-margin-11: $system-spacing-margin-11 !default;
+$system-system-spacing-margin-12: $system-spacing-margin-12 !default;
+$system-system-spacing-margin-14: $system-spacing-margin-14 !default;
+$system-system-spacing-margin-16: $system-spacing-margin-16 !default;
+$system-system-spacing-margin-20: $system-spacing-margin-20 !default;
+$system-system-spacing-margin-24: $system-spacing-margin-24 !default;
+$system-system-spacing-margin-28: $system-spacing-margin-28 !default;
+$system-system-spacing-margin-32: $system-spacing-margin-32 !default;
+$system-system-spacing-margin-36: $system-spacing-margin-36 !default;
+$system-system-spacing-margin-40: $system-spacing-margin-40 !default;
+$system-system-spacing-margin-50: $system-spacing-margin-50 !default;
+$system-system-spacing-margin-60: $system-spacing-margin-60 !default;
+$system-system-spacing-margin-2px: $system-spacing-margin-2px !default;
+$system-system-spacing-margin-1s: $system-spacing-margin-1s !default;
+$system-system-spacing-margin-3px: $system-spacing-margin-3px !default;
+$system-system-spacing-margin-2s: $system-spacing-margin-2s !default;
+$system-system-spacing-padding-1: $system-spacing-padding-1 !default;
+$system-system-spacing-padding-2: $system-spacing-padding-2 !default;
+$system-system-spacing-padding-3: $system-spacing-padding-3 !default;
+$system-system-spacing-padding-4: $system-spacing-padding-4 !default;
+$system-system-spacing-padding-5: $system-spacing-padding-5 !default;
+$system-system-spacing-padding-6: $system-spacing-padding-6 !default;
+$system-system-spacing-padding-7: $system-spacing-padding-7 !default;
+$system-system-spacing-padding-8: $system-spacing-padding-8 !default;
+$system-system-spacing-padding-9: $system-spacing-padding-9 !default;
+$system-system-spacing-padding-10: $system-spacing-padding-10 !default;
+$system-system-spacing-padding-11: $system-spacing-padding-11 !default;
+$system-system-spacing-padding-12: $system-spacing-padding-12 !default;
+$system-system-spacing-padding-14: $system-spacing-padding-14 !default;
+$system-system-spacing-padding-16: $system-spacing-padding-16 !default;
+$system-system-spacing-padding-20: $system-spacing-padding-20 !default;
+$system-system-spacing-padding-24: $system-spacing-padding-24 !default;
+$system-system-spacing-padding-28: $system-spacing-padding-28 !default;
+$system-system-spacing-padding-32: $system-spacing-padding-32 !default;
+$system-system-spacing-padding-36: $system-spacing-padding-36 !default;
+$system-system-spacing-padding-40: $system-spacing-padding-40 !default;
+$system-system-spacing-padding-44: $system-spacing-padding-44 !default;
+$system-system-spacing-padding-48: $system-spacing-padding-48 !default;
+$system-system-spacing-padding-52: $system-spacing-padding-52 !default;
+$system-system-spacing-padding-56: $system-spacing-padding-56 !default;
+$system-system-spacing-padding-60: $system-spacing-padding-60 !default;
+$system-system-spacing-padding-64: $system-spacing-padding-64 !default;
+$system-system-spacing-padding-72: $system-spacing-padding-72 !default;
+$system-system-spacing-padding-80: $system-spacing-padding-80 !default;
+$system-system-spacing-padding-96: $system-spacing-padding-96 !default;
+$system-system-spacing-padding-2px: $system-spacing-padding-2px !default;
+$system-system-spacing-padding-1s: $system-spacing-padding-1s !default;
+$system-system-spacing-padding-2s: $system-spacing-padding-2s !default;
+$system-system-spacing-padding-3s: $system-spacing-padding-3s !default;
+$system-system-spacing-padding-4s: $system-spacing-padding-4s !default;
+$system-system-spacing-padding-5s: $system-spacing-padding-5s !default;
+$system-system-spacing-padding-3px: $system-spacing-padding-3px !default;
+$system-system-spacing-space-between-1: $system-spacing-space-between-1 !default;
+$system-system-spacing-space-between-2: $system-spacing-space-between-2 !default;
+$system-system-spacing-space-between-3: $system-spacing-space-between-3 !default;
+$system-system-spacing-space-between-4: $system-spacing-space-between-4 !default;
+$system-system-spacing-space-between-5: $system-spacing-space-between-5 !default;
+$system-system-spacing-space-between-6: $system-spacing-space-between-6 !default;
+$system-system-spacing-space-between-7: $system-spacing-space-between-7 !default;
+$system-system-spacing-space-between-8: $system-spacing-space-between-8 !default;
+$system-system-spacing-space-between-9: $system-spacing-space-between-9 !default;
+$system-system-spacing-space-between-10: $system-spacing-space-between-10 !default;
+$system-system-spacing-space-between-11: $system-spacing-space-between-11 !default;
+$system-system-spacing-space-between-12: $system-spacing-space-between-12 !default;
+$system-system-spacing-space-between-13: $system-spacing-space-between-13 !default;
+$system-system-spacing-space-between-14: $system-spacing-space-between-14 !default;
+$system-system-spacing-space-between-16: $system-spacing-space-between-16 !default;
+$system-system-spacing-space-between-20: $system-spacing-space-between-20 !default;
+$system-system-spacing-space-between-2px: $system-spacing-space-between-2px !default;
+$system-system-spacing-space-between-1s: $system-spacing-space-between-1s !default;
+$system-system-spacing-space-between-2s: $system-spacing-space-between-2s !default;
+$system-system-size-width-1: $system-size-width-1 !default;
+$system-system-size-width-2: $system-size-width-2 !default;
+$system-system-size-width-3: $system-size-width-3 !default;
+$system-system-size-width-4: $system-size-width-4 !default;
+$system-system-size-width-5: $system-size-width-5 !default;
+$system-system-size-width-6: $system-size-width-6 !default;
+$system-system-size-width-7: $system-size-width-7 !default;
+$system-system-size-width-8: $system-size-width-8 !default;
+$system-system-size-width-9: $system-size-width-9 !default;
+$system-system-size-width-10: $system-size-width-10 !default;
+$system-system-size-width-11: $system-size-width-11 !default;
+$system-system-size-width-12: $system-size-width-12 !default;
+$system-system-size-width-14: $system-size-width-14 !default;
+$system-system-size-width-16: $system-size-width-16 !default;
+$system-system-size-width-20: $system-size-width-20 !default;
+$system-system-size-width-24: $system-size-width-24 !default;
+$system-system-size-width-28: $system-size-width-28 !default;
+$system-system-size-width-32: $system-size-width-32 !default;
+$system-system-size-width-36: $system-size-width-36 !default;
+$system-system-size-width-40: $system-size-width-40 !default;
+$system-system-size-width-44: $system-size-width-44 !default;
+$system-system-size-width-48: $system-size-width-48 !default;
+$system-system-size-width-52: $system-size-width-52 !default;
+$system-system-size-width-56: $system-size-width-56 !default;
+$system-system-size-width-60: $system-size-width-60 !default;
+$system-system-size-width-64: $system-size-width-64 !default;
+$system-system-size-width-72: $system-size-width-72 !default;
+$system-system-size-width-80: $system-size-width-80 !default;
+$system-system-size-width-96: $system-size-width-96 !default;
+$system-system-size-width-110: $system-size-width-110 !default;
+$system-system-size-width-120: $system-size-width-120 !default;
+$system-system-size-width-5s: $system-size-width-5s !default;
+$system-system-size-width-4s: $system-size-width-4s !default;
+$system-system-size-width-3s: $system-size-width-3s !default;
+$system-system-size-width-2px: $system-size-width-2px !default;
+$system-system-size-height-1: $system-size-height-1 !default;
+$system-system-size-height-2: $system-size-height-2 !default;
+$system-system-size-height-3: $system-size-height-3 !default;
+$system-system-size-height-4: $system-size-height-4 !default;
+$system-system-size-height-5: $system-size-height-5 !default;
+$system-system-size-height-6: $system-size-height-6 !default;
+$system-system-size-height-7: $system-size-height-7 !default;
+$system-system-size-height-8: $system-size-height-8 !default;
+$system-system-size-height-9: $system-size-height-9 !default;
+$system-system-size-height-10: $system-size-height-10 !default;
+$system-system-size-height-11: $system-size-height-11 !default;
+$system-system-size-height-12: $system-size-height-12 !default;
+$system-system-size-height-14: $system-size-height-14 !default;
+$system-system-size-height-16: $system-size-height-16 !default;
+$system-system-size-height-20: $system-size-height-20 !default;
+$system-system-size-height-24: $system-size-height-24 !default;
+$system-system-size-height-28: $system-size-height-28 !default;
+$system-system-size-height-32: $system-size-height-32 !default;
+$system-system-size-height-36: $system-size-height-36 !default;
+$system-system-size-height-40: $system-size-height-40 !default;
+$system-system-size-height-44: $system-size-height-44 !default;
+$system-system-size-height-48: $system-size-height-48 !default;
+$system-system-size-height-52: $system-size-height-52 !default;
+$system-system-size-height-56: $system-size-height-56 !default;
+$system-system-size-height-60: $system-size-height-60 !default;
+$system-system-size-height-64: $system-size-height-64 !default;
+$system-system-size-height-72: $system-size-height-72 !default;
+$system-system-size-height-80: $system-size-height-80 !default;
+$system-system-size-height-96: $system-size-height-96 !default;
+$system-system-size-height-110: $system-size-height-110 !default;
+$system-system-size-height-120: $system-size-height-120 !default;
+$system-system-size-height-5s: $system-size-height-5s !default;
+$system-system-size-height-4s: $system-size-height-4s !default;
+$system-system-size-height-3s: $system-size-height-3s !default;
+$system-system-size-height-2px: $system-size-height-2px !default;
+$system-system-border-stroke-none: $system-border-width-none !default;
+$system-system-border-stroke-thin: $system-border-width-thin !default;
+$system-system-border-stroke-regular: $system-border-width-regular !default;
+$system-system-border-stroke-solide: $system-border-width-solide !default;
+$system-system-typography-heading-6xl: $system-typography-font-weight-semibold $system-line-height-leading-7xlpx/72 $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-5xl: $system-typography-font-weight-semibold $system-line-height-leading-6xlpx/60 $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-4xl: $system-typography-font-weight-semibold $system-line-height-leading-5xlpx/48 $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-3xl: $system-typography-font-weight-semibold $system-typography-font-size-text-4xl/$system-line-height-leading-4xl $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-2xl: $system-typography-font-weight-semibold $system-typography-font-size-text-3xl/$system-line-height-leading-3xl $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-xl: $system-typography-font-weight-semibold $system-typography-font-size-text-2xl/$system-line-height-leading-2xl $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-lg: $system-typography-font-weight-semibold $system-typography-font-size-text-xl/$system-line-height-leading-xl $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-md: $system-typography-font-weight-semibold $system-typography-font-size-text-lg/$system-line-height-leading-lg $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-sm: $system-typography-font-weight-semibold $system-typography-font-size-text-base/$system-line-height-leading-base $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-xs: $system-typography-font-weight-semibold $system-typography-font-size-text-sm/$system-line-height-leading-sm $system-typography-font-family-font-sans !default;
+$system-system-typography-heading-2xs: $system-typography-font-weight-semibold $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-body-2xl: $system-typography-font-weight-regular $system-typography-font-size-text-lg/$system-line-height-leading-lg $system-typography-font-family-font-sans !default;
+$system-system-typography-body-xl: $system-typography-font-weight-medium $system-typography-font-size-text-base/$system-line-height-leading-base $system-typography-font-family-font-sans !default;
+$system-system-typography-body-lg: $system-typography-font-weight-regular $system-typography-font-size-text-base/$system-line-height-leading-base $system-typography-font-family-font-sans !default;
+$system-system-typography-body-lg-underlined: $system-typography-font-weight-regular $system-typography-font-size-text-base/$system-line-height-leading-base $system-typography-font-family-font-sans !default;
+$system-system-typography-body-md: $system-typography-font-weight-medium $system-typography-font-size-text-sm/$system-line-height-leading-sm $system-typography-font-family-font-sans !default;
+$system-system-typography-body-sm: $system-typography-font-weight-regular $system-typography-font-size-text-sm/$system-line-height-leading-sm $system-typography-font-family-font-sans !default;
+$system-system-typography-body-sm-underlined: $system-typography-font-weight-regular $system-typography-font-size-text-sm/$system-line-height-leading-sm $system-typography-font-family-font-sans !default;
+$system-system-typography-body-xs: $system-typography-font-weight-regular $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-body-xs-underlined: $system-typography-font-weight-regular $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-caption-md: $system-typography-font-weight-medium $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-caption-md-underline: $system-typography-font-weight-medium $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-caption-md-uppercase: $system-typography-font-weight-medium $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-caption-sm: $system-typography-font-weight-regular $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-caption-sm-underline: $system-typography-font-weight-regular $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-system-typography-caption-sm-uppercase: $system-typography-font-weight-regular $system-typography-font-size-text-xs/$system-line-height-leading-xs $system-typography-font-family-font-sans !default;
+$system-syste-border-radius-none: $system-border-radius-rounded-none !default;
+$system-syste-border-radius-2xs: $system-border-radius-rounded-2px !default;
+$system-syste-border-radius-xs: $system-border-radius-rounded-1 !default;
+$system-syste-border-radius-sm: $system-border-radius-rounded-1s !default;
+$system-syste-border-radius-md: $system-border-radius-rounded-2 !default;
+$system-syste-border-radius-lg: $system-border-radius-rounded-2s !default;
+$system-syste-border-radius-xl: $system-border-radius-rounded-3 !default;
+$system-syste-border-radius-2xl: $system-border-radius-rounded-4 !default;
+$system-syste-border-radius-3xl: $system-border-radius-rounded-5 !default;
+$system-syste-border-radius-4xl: $system-border-radius-rounded-6 !default;
+$system-syste-border-radius-full: $system-border-radius-rounded-full !default;
+
+$tokens: (
+  'colors': (
+    'neutral': (
+      'white': $system-colors-neutral-white,
+      'black': $system-colors-neutral-black,
+      'transparent': $system-colors-neutral-transparent,
+      'gray': (
+        '25': $system-colors-neutral-gray-25,
+        '50': $system-colors-neutral-gray-50,
+        '100': $system-colors-neutral-gray-100,
+        '200': $system-colors-neutral-gray-200,
+        '300': $system-colors-neutral-gray-300,
+        '400': $system-colors-neutral-gray-400,
+        '500': $system-colors-neutral-gray-500,
+        '600': $system-colors-neutral-gray-600,
+        '700': $system-colors-neutral-gray-700,
+        '800': $system-colors-neutral-gray-800,
+        '900': $system-colors-neutral-gray-900,
+        '950': $system-colors-neutral-gray-950
+      ),
+      'gray-blue': (
+        '25': $system-colors-neutral-gray-blue-25,
+        '50': $system-colors-neutral-gray-blue-50,
+        '100': $system-colors-neutral-gray-blue-100,
+        '200': $system-colors-neutral-gray-blue-200,
+        '300': $system-colors-neutral-gray-blue-300,
+        '400': $system-colors-neutral-gray-blue-400,
+        '500': $system-colors-neutral-gray-blue-500,
+        '600': $system-colors-neutral-gray-blue-600,
+        '700': $system-colors-neutral-gray-blue-700,
+        '800': $system-colors-neutral-gray-blue-800,
+        '900': $system-colors-neutral-gray-blue-900,
+        '950': $system-colors-neutral-gray-blue-950
+      ),
+      'gray-cool': (
+        '25': $system-colors-neutral-gray-cool-25,
+        '50': $system-colors-neutral-gray-cool-50,
+        '100': $system-colors-neutral-gray-cool-100,
+        '200': $system-colors-neutral-gray-cool-200,
+        '300': $system-colors-neutral-gray-cool-300,
+        '400': $system-colors-neutral-gray-cool-400,
+        '500': $system-colors-neutral-gray-cool-500,
+        '600': $system-colors-neutral-gray-cool-600,
+        '700': $system-colors-neutral-gray-cool-700,
+        '800': $system-colors-neutral-gray-cool-800,
+        '900': $system-colors-neutral-gray-cool-900,
+        '950': $system-colors-neutral-gray-cool-950
+      ),
+      'gray-modern': (
+        '25': $system-colors-neutral-gray-modern-25,
+        '50': $system-colors-neutral-gray-modern-50,
+        '100': $system-colors-neutral-gray-modern-100,
+        '200': $system-colors-neutral-gray-modern-200,
+        '300': $system-colors-neutral-gray-modern-300,
+        '400': $system-colors-neutral-gray-modern-400,
+        '500': $system-colors-neutral-gray-modern-500,
+        '600': $system-colors-neutral-gray-modern-600,
+        '700': $system-colors-neutral-gray-modern-700,
+        '800': $system-colors-neutral-gray-modern-800,
+        '900': $system-colors-neutral-gray-modern-900,
+        '950': $system-colors-neutral-gray-modern-950
+      ),
+      'gray-neutral': (
+        '25': $system-colors-neutral-gray-neutral-25,
+        '50': $system-colors-neutral-gray-neutral-50,
+        '100': $system-colors-neutral-gray-neutral-100,
+        '200': $system-colors-neutral-gray-neutral-200,
+        '300': $system-colors-neutral-gray-neutral-300,
+        '400': $system-colors-neutral-gray-neutral-400,
+        '500': $system-colors-neutral-gray-neutral-500,
+        '600': $system-colors-neutral-gray-neutral-600,
+        '700': $system-colors-neutral-gray-neutral-700,
+        '800': $system-colors-neutral-gray-neutral-800,
+        '900': $system-colors-neutral-gray-neutral-900,
+        '950': $system-colors-neutral-gray-neutral-950
+      ),
+      'gray-iron': (
+        '25': $system-colors-neutral-gray-iron-25,
+        '50': $system-colors-neutral-gray-iron-50,
+        '100': $system-colors-neutral-gray-iron-100,
+        '200': $system-colors-neutral-gray-iron-200,
+        '300': $system-colors-neutral-gray-iron-300,
+        '400': $system-colors-neutral-gray-iron-400,
+        '500': $system-colors-neutral-gray-iron-500,
+        '600': $system-colors-neutral-gray-iron-600,
+        '700': $system-colors-neutral-gray-iron-700,
+        '800': $system-colors-neutral-gray-iron-800,
+        '900': $system-colors-neutral-gray-iron-900,
+        '950': $system-colors-neutral-gray-iron-950
+      ),
+      'gray-true': (
+        '25': $system-colors-neutral-gray-true-25,
+        '50': $system-colors-neutral-gray-true-50,
+        '100': $system-colors-neutral-gray-true-100,
+        '200': $system-colors-neutral-gray-true-200,
+        '300': $system-colors-neutral-gray-true-300,
+        '400': $system-colors-neutral-gray-true-400,
+        '500': $system-colors-neutral-gray-true-500,
+        '600': $system-colors-neutral-gray-true-600,
+        '700': $system-colors-neutral-gray-true-700,
+        '800': $system-colors-neutral-gray-true-800,
+        '900': $system-colors-neutral-gray-true-900,
+        '950': $system-colors-neutral-gray-true-950
+      ),
+      'gray-warm': (
+        '25': $system-colors-neutral-gray-warm-25,
+        '50': $system-colors-neutral-gray-warm-50,
+        '100': $system-colors-neutral-gray-warm-100,
+        '200': $system-colors-neutral-gray-warm-200,
+        '300': $system-colors-neutral-gray-warm-300,
+        '400': $system-colors-neutral-gray-warm-400,
+        '500': $system-colors-neutral-gray-warm-500,
+        '600': $system-colors-neutral-gray-warm-600,
+        '700': $system-colors-neutral-gray-warm-700,
+        '800': $system-colors-neutral-gray-warm-800,
+        '900': $system-colors-neutral-gray-warm-900,
+        '950': $system-colors-neutral-gray-warm-950
+      )
+    ),
+    'shared': (
+      'blue-light': (
+        '25': $system-colors-shared-blue-light-25,
+        '50': $system-colors-shared-blue-light-50,
+        '100': $system-colors-shared-blue-light-100,
+        '200': $system-colors-shared-blue-light-200,
+        '300': $system-colors-shared-blue-light-300,
+        '400': $system-colors-shared-blue-light-400,
+        '500': $system-colors-shared-blue-light-500,
+        '600': $system-colors-shared-blue-light-600,
+        '700': $system-colors-shared-blue-light-700,
+        '800': $system-colors-shared-blue-light-800,
+        '900': $system-colors-shared-blue-light-900,
+        '950': $system-colors-shared-blue-light-950
+      ),
+      'red': (
+        '25': $system-colors-shared-red-25,
+        '50': $system-colors-shared-red-50,
+        '100': $system-colors-shared-red-100,
+        '200': $system-colors-shared-red-200,
+        '300': $system-colors-shared-red-300,
+        '400': $system-colors-shared-red-400,
+        '500': $system-colors-shared-red-500,
+        '600': $system-colors-shared-red-600,
+        '700': $system-colors-shared-red-700,
+        '800': $system-colors-shared-red-800,
+        '900': $system-colors-shared-red-900,
+        '950': $system-colors-shared-red-950
+      ),
+      'orange': (
+        '25': $system-colors-shared-orange-25,
+        '50': $system-colors-shared-orange-50,
+        '100': $system-colors-shared-orange-100,
+        '200': $system-colors-shared-orange-200,
+        '300': $system-colors-shared-orange-300,
+        '400': $system-colors-shared-orange-400,
+        '500': $system-colors-shared-orange-500,
+        '600': $system-colors-shared-orange-600,
+        '700': $system-colors-shared-orange-700,
+        '800': $system-colors-shared-orange-800,
+        '900': $system-colors-shared-orange-900,
+        '950': $system-colors-shared-orange-950
+      ),
+      'green': (
+        '25': $system-colors-shared-green-25,
+        '50': $system-colors-shared-green-50,
+        '100': $system-colors-shared-green-100,
+        '200': $system-colors-shared-green-200,
+        '300': $system-colors-shared-green-300,
+        '400': $system-colors-shared-green-400,
+        '500': $system-colors-shared-green-500,
+        '600': $system-colors-shared-green-600,
+        '700': $system-colors-shared-green-700,
+        '800': $system-colors-shared-green-800,
+        '900': $system-colors-shared-green-900,
+        '950': $system-colors-shared-green-950
+      ),
+      'moss': (
+        '25': $system-colors-shared-moss-25,
+        '50': $system-colors-shared-moss-50,
+        '100': $system-colors-shared-moss-100,
+        '200': $system-colors-shared-moss-200,
+        '300': $system-colors-shared-moss-300,
+        '400': $system-colors-shared-moss-400,
+        '500': $system-colors-shared-moss-500,
+        '600': $system-colors-shared-moss-600,
+        '700': $system-colors-shared-moss-700,
+        '800': $system-colors-shared-moss-800,
+        '900': $system-colors-shared-moss-900,
+        '950': $system-colors-shared-moss-950
+      ),
+      'green-light': (
+        '25': $system-colors-shared-green-light-25,
+        '50': $system-colors-shared-green-light-50,
+        '100': $system-colors-shared-green-light-100,
+        '200': $system-colors-shared-green-light-200,
+        '300': $system-colors-shared-green-light-300,
+        '400': $system-colors-shared-green-light-400,
+        '500': $system-colors-shared-green-light-500,
+        '600': $system-colors-shared-green-light-600,
+        '700': $system-colors-shared-green-light-700,
+        '800': $system-colors-shared-green-light-800,
+        '900': $system-colors-shared-green-light-900,
+        '950': $system-colors-shared-green-light-950
+      ),
+      'teal': (
+        '25': $system-colors-shared-teal-25,
+        '50': $system-colors-shared-teal-50,
+        '100': $system-colors-shared-teal-100,
+        '200': $system-colors-shared-teal-200,
+        '300': $system-colors-shared-teal-300,
+        '400': $system-colors-shared-teal-400,
+        '500': $system-colors-shared-teal-500,
+        '600': $system-colors-shared-teal-600,
+        '700': $system-colors-shared-teal-700,
+        '800': $system-colors-shared-teal-800,
+        '900': $system-colors-shared-teal-900,
+        '950': $system-colors-shared-teal-950
+      ),
+      'cyan': (
+        '25': $system-colors-shared-cyan-25,
+        '50': $system-colors-shared-cyan-50,
+        '100': $system-colors-shared-cyan-100,
+        '200': $system-colors-shared-cyan-200,
+        '300': $system-colors-shared-cyan-300,
+        '400': $system-colors-shared-cyan-400,
+        '500': $system-colors-shared-cyan-500,
+        '600': $system-colors-shared-cyan-600,
+        '700': $system-colors-shared-cyan-700,
+        '800': $system-colors-shared-cyan-800,
+        '900': $system-colors-shared-cyan-900,
+        '950': $system-colors-shared-cyan-950
+      ),
+      'blue': (
+        '25': $system-colors-shared-blue-25,
+        '50': $system-colors-shared-blue-50,
+        '100': $system-colors-shared-blue-100,
+        '200': $system-colors-shared-blue-200,
+        '300': $system-colors-shared-blue-300,
+        '400': $system-colors-shared-blue-400,
+        '500': $system-colors-shared-blue-500,
+        '600': $system-colors-shared-blue-600,
+        '700': $system-colors-shared-blue-700,
+        '800': $system-colors-shared-blue-800,
+        '900': $system-colors-shared-blue-900,
+        '950': $system-colors-shared-blue-950
+      ),
+      'blue-dark': (
+        '25': $system-colors-shared-blue-dark-25,
+        '50': $system-colors-shared-blue-dark-50,
+        '100': $system-colors-shared-blue-dark-100,
+        '200': $system-colors-shared-blue-dark-200,
+        '300': $system-colors-shared-blue-dark-300,
+        '400': $system-colors-shared-blue-dark-400,
+        '500': $system-colors-shared-blue-dark-500,
+        '600': $system-colors-shared-blue-dark-600,
+        '700': $system-colors-shared-blue-dark-700,
+        '800': $system-colors-shared-blue-dark-800,
+        '900': $system-colors-shared-blue-dark-900,
+        '950': $system-colors-shared-blue-dark-950
+      ),
+      'indigo': (
+        '25': $system-colors-shared-indigo-25,
+        '50': $system-colors-shared-indigo-50,
+        '100': $system-colors-shared-indigo-100,
+        '200': $system-colors-shared-indigo-200,
+        '300': $system-colors-shared-indigo-300,
+        '400': $system-colors-shared-indigo-400,
+        '500': $system-colors-shared-indigo-500,
+        '600': $system-colors-shared-indigo-600,
+        '700': $system-colors-shared-indigo-700,
+        '800': $system-colors-shared-indigo-800,
+        '900': $system-colors-shared-indigo-900,
+        '950': $system-colors-shared-indigo-950
+      ),
+      'violet': (
+        '25': $system-colors-shared-violet-25,
+        '50': $system-colors-shared-violet-50,
+        '100': $system-colors-shared-violet-100,
+        '200': $system-colors-shared-violet-200,
+        '300': $system-colors-shared-violet-300,
+        '400': $system-colors-shared-violet-400,
+        '500': $system-colors-shared-violet-500,
+        '600': $system-colors-shared-violet-600,
+        '700': $system-colors-shared-violet-700,
+        '800': $system-colors-shared-violet-800,
+        '900': $system-colors-shared-violet-900,
+        '950': $system-colors-shared-violet-950
+      ),
+      'purple': (
+        '25': $system-colors-shared-purple-25,
+        '50': $system-colors-shared-purple-50,
+        '100': $system-colors-shared-purple-100,
+        '200': $system-colors-shared-purple-200,
+        '300': $system-colors-shared-purple-300,
+        '400': $system-colors-shared-purple-400,
+        '500': $system-colors-shared-purple-500,
+        '600': $system-colors-shared-purple-600,
+        '700': $system-colors-shared-purple-700,
+        '800': $system-colors-shared-purple-800,
+        '900': $system-colors-shared-purple-900,
+        '950': $system-colors-shared-purple-950
+      ),
+      'fuchsia': (
+        '25': $system-colors-shared-fuchsia-25,
+        '50': $system-colors-shared-fuchsia-50,
+        '100': $system-colors-shared-fuchsia-100,
+        '200': $system-colors-shared-fuchsia-200,
+        '300': $system-colors-shared-fuchsia-300,
+        '400': $system-colors-shared-fuchsia-400,
+        '500': $system-colors-shared-fuchsia-500,
+        '600': $system-colors-shared-fuchsia-600,
+        '700': $system-colors-shared-fuchsia-700,
+        '800': $system-colors-shared-fuchsia-800,
+        '900': $system-colors-shared-fuchsia-900,
+        '950': $system-colors-shared-fuchsia-950
+      ),
+      'pink': (
+        '25': $system-colors-shared-pink-25,
+        '50': $system-colors-shared-pink-50,
+        '100': $system-colors-shared-pink-100,
+        '200': $system-colors-shared-pink-200,
+        '300': $system-colors-shared-pink-300,
+        '400': $system-colors-shared-pink-400,
+        '500': $system-colors-shared-pink-500,
+        '600': $system-colors-shared-pink-600,
+        '700': $system-colors-shared-pink-700,
+        '800': $system-colors-shared-pink-800,
+        '900': $system-colors-shared-pink-900,
+        '950': $system-colors-shared-pink-950
+      ),
+      'rose': (
+        '25': $system-colors-shared-rose-25,
+        '50': $system-colors-shared-rose-50,
+        '100': $system-colors-shared-rose-100,
+        '200': $system-colors-shared-rose-200,
+        '300': $system-colors-shared-rose-300,
+        '400': $system-colors-shared-rose-400,
+        '500': $system-colors-shared-rose-500,
+        '600': $system-colors-shared-rose-600,
+        '700': $system-colors-shared-rose-700,
+        '800': $system-colors-shared-rose-800,
+        '900': $system-colors-shared-rose-900,
+        '950': $system-colors-shared-rose-950
+      ),
+      'orange-dark': (
+        '25': $system-colors-shared-orange-dark-25,
+        '50': $system-colors-shared-orange-dark-50,
+        '100': $system-colors-shared-orange-dark-100,
+        '200': $system-colors-shared-orange-dark-200,
+        '300': $system-colors-shared-orange-dark-300,
+        '400': $system-colors-shared-orange-dark-400,
+        '500': $system-colors-shared-orange-dark-500,
+        '600': $system-colors-shared-orange-dark-600,
+        '700': $system-colors-shared-orange-dark-700,
+        '800': $system-colors-shared-orange-dark-800,
+        '900': $system-colors-shared-orange-dark-900,
+        '950': $system-colors-shared-orange-dark-950
+      ),
+      'yellow': (
+        '25': $system-colors-shared-yellow-25,
+        '50': $system-colors-shared-yellow-50,
+        '100': $system-colors-shared-yellow-100,
+        '200': $system-colors-shared-yellow-200,
+        '300': $system-colors-shared-yellow-300,
+        '400': $system-colors-shared-yellow-400,
+        '500': $system-colors-shared-yellow-500,
+        '600': $system-colors-shared-yellow-600,
+        '700': $system-colors-shared-yellow-700,
+        '800': $system-colors-shared-yellow-800,
+        '900': $system-colors-shared-yellow-900,
+        '950': $system-colors-shared-yellow-950
+      )
+    )
+  ),
+  'shadows': (
+    'xs-border': $system-shadows-xs-border,
+    'xs': $system-shadows-xs,
+    'sm': $system-shadows-sm,
+    'md': $system-shadows-md,
+    'lg': $system-shadows-lg,
+    'xl': $system-shadows-xl,
+    '2xl': $system-shadows-2xl,
+    '3xl': $system-shadows-3xl
+  ),
+  'focus-rings': (
+    'shadow-xs-border': $system-focus-rings-shadow-xs-border,
+    'shadow-2xs': $system-focus-rings-shadow-2xs,
+    'shadow-xs': $system-focus-rings-shadow-xs,
+    'shadow-sm': $system-focus-rings-shadow-sm,
+    'error-shadow-2xs': $system-focus-rings-error-shadow-2xs,
+    'error-shadow-xs': $system-focus-rings-error-shadow-xs,
+    'error-shadow-xs-border': $system-focus-rings-error-shadow-xs-border
+  ),
+  'spacing': (
+    'margin': (
+      '1': $system-spacing-margin-1,
+      '2': $system-spacing-margin-2,
+      '3': $system-spacing-margin-3,
+      '4': $system-spacing-margin-4,
+      '5': $system-spacing-margin-5,
+      '6': $system-spacing-margin-6,
+      '7': $system-spacing-margin-7,
+      '8': $system-spacing-margin-8,
+      '9': $system-spacing-margin-9,
+      '10': $system-spacing-margin-10,
+      '11': $system-spacing-margin-11,
+      '12': $system-spacing-margin-12,
+      '13': $system-spacing-margin-13,
+      '14': $system-spacing-margin-14,
+      '16': $system-spacing-margin-16,
+      '20': $system-spacing-margin-20,
+      '24': $system-spacing-margin-24,
+      '28': $system-spacing-margin-28,
+      '32': $system-spacing-margin-32,
+      '36': $system-spacing-margin-36,
+      '40': $system-spacing-margin-40,
+      '44': $system-spacing-margin-44,
+      '48': $system-spacing-margin-48,
+      '50': $system-spacing-margin-50,
+      '52': $system-spacing-margin-52,
+      '56': $system-spacing-margin-56,
+      '60': $system-spacing-margin-60,
+      '64': $system-spacing-margin-64,
+      '72': $system-spacing-margin-72,
+      '80': $system-spacing-margin-80,
+      '96': $system-spacing-margin-96,
+      '110': $system-spacing-margin-110,
+      '120': $system-spacing-margin-120,
+      '140': $system-spacing-margin-140,
+      '160': $system-spacing-margin-160,
+      '180': $system-spacing-margin-180,
+      'none': $system-spacing-margin-none,
+      '1px': $system-spacing-margin-1px,
+      '2px': $system-spacing-margin-2px,
+      '3px': $system-spacing-margin-3px,
+      '1s': $system-spacing-margin-1s,
+      '2s': $system-spacing-margin-2s,
+      '3s': $system-spacing-margin-3s,
+      '4s': $system-spacing-margin-4s,
+      '5s': $system-spacing-margin-5s
+    ),
+    'padding': (
+      '1': $system-spacing-padding-1,
+      '2': $system-spacing-padding-2,
+      '3': $system-spacing-padding-3,
+      '4': $system-spacing-padding-4,
+      '5': $system-spacing-padding-5,
+      '6': $system-spacing-padding-6,
+      '7': $system-spacing-padding-7,
+      '8': $system-spacing-padding-8,
+      '9': $system-spacing-padding-9,
+      '10': $system-spacing-padding-10,
+      '11': $system-spacing-padding-11,
+      '12': $system-spacing-padding-12,
+      '13': $system-spacing-padding-13,
+      '14': $system-spacing-padding-14,
+      '16': $system-spacing-padding-16,
+      '20': $system-spacing-padding-20,
+      '24': $system-spacing-padding-24,
+      '28': $system-spacing-padding-28,
+      '32': $system-spacing-padding-32,
+      '36': $system-spacing-padding-36,
+      '40': $system-spacing-padding-40,
+      '44': $system-spacing-padding-44,
+      '48': $system-spacing-padding-48,
+      '50': $system-spacing-padding-50,
+      '52': $system-spacing-padding-52,
+      '56': $system-spacing-padding-56,
+      '60': $system-spacing-padding-60,
+      '64': $system-spacing-padding-64,
+      '72': $system-spacing-padding-72,
+      '80': $system-spacing-padding-80,
+      '96': $system-spacing-padding-96,
+      '110': $system-spacing-padding-110,
+      '120': $system-spacing-padding-120,
+      '140': $system-spacing-padding-140,
+      '160': $system-spacing-padding-160,
+      '180': $system-spacing-padding-180,
+      'none': $system-spacing-padding-none,
+      '1px': $system-spacing-padding-1px,
+      '2px': $system-spacing-padding-2px,
+      '3px': $system-spacing-padding-3px,
+      '1s': $system-spacing-padding-1s,
+      '2s': $system-spacing-padding-2s,
+      '3s': $system-spacing-padding-3s,
+      '4s': $system-spacing-padding-4s,
+      '5s': $system-spacing-padding-5s
+    ),
+    'space-between': (
+      '1': $system-spacing-space-between-1,
+      '2': $system-spacing-space-between-2,
+      '3': $system-spacing-space-between-3,
+      '4': $system-spacing-space-between-4,
+      '5': $system-spacing-space-between-5,
+      '6': $system-spacing-space-between-6,
+      '7': $system-spacing-space-between-7,
+      '8': $system-spacing-space-between-8,
+      '9': $system-spacing-space-between-9,
+      '10': $system-spacing-space-between-10,
+      '11': $system-spacing-space-between-11,
+      '12': $system-spacing-space-between-12,
+      '13': $system-spacing-space-between-13,
+      '14': $system-spacing-space-between-14,
+      '16': $system-spacing-space-between-16,
+      '20': $system-spacing-space-between-20,
+      '24': $system-spacing-space-between-24,
+      '28': $system-spacing-space-between-28,
+      '32': $system-spacing-space-between-32,
+      '36': $system-spacing-space-between-36,
+      '40': $system-spacing-space-between-40,
+      '44': $system-spacing-space-between-44,
+      '48': $system-spacing-space-between-48,
+      '50': $system-spacing-space-between-50,
+      '52': $system-spacing-space-between-52,
+      '56': $system-spacing-space-between-56,
+      '60': $system-spacing-space-between-60,
+      '64': $system-spacing-space-between-64,
+      '72': $system-spacing-space-between-72,
+      '80': $system-spacing-space-between-80,
+      '96': $system-spacing-space-between-96,
+      '110': $system-spacing-space-between-110,
+      '120': $system-spacing-space-between-120,
+      '140': $system-spacing-space-between-140,
+      '160': $system-spacing-space-between-160,
+      '180': $system-spacing-space-between-180,
+      'none': $system-spacing-space-between-none,
+      '1px': $system-spacing-space-between-1px,
+      '2px': $system-spacing-space-between-2px,
+      '3px': $system-spacing-space-between-3px,
+      '1s': $system-spacing-space-between-1s,
+      '2s': $system-spacing-space-between-2s,
+      '3s': $system-spacing-space-between-3s,
+      '4s': $system-spacing-space-between-4s,
+      '5s': $system-spacing-space-between-5s
+    )
+  ),
+  'border': (
+    'radius': (
+      'rounded-none': $system-border-radius-rounded-none,
+      'rounded-2px': $system-border-radius-rounded-2px,
+      'rounded-1': $system-border-radius-rounded-1,
+      'rounded-1s': $system-border-radius-rounded-1s,
+      'rounded-2': $system-border-radius-rounded-2,
+      'rounded-2s': $system-border-radius-rounded-2s,
+      'rounded-3': $system-border-radius-rounded-3,
+      'rounded-4': $system-border-radius-rounded-4,
+      'rounded-5': $system-border-radius-rounded-5,
+      'rounded-6': $system-border-radius-rounded-6,
+      'rounded-full': $system-border-radius-rounded-full
+    ),
+    'width': (
+      'none': $system-border-width-none,
+      'thin': $system-border-width-thin,
+      'regular': $system-border-width-regular,
+      'solide': $system-border-width-solide
+    )
+  ),
+  'size': (
+    'width': (
+      '1': $system-size-width-1,
+      '2': $system-size-width-2,
+      '3': $system-size-width-3,
+      '4': $system-size-width-4,
+      '5': $system-size-width-5,
+      '6': $system-size-width-6,
+      '7': $system-size-width-7,
+      '8': $system-size-width-8,
+      '9': $system-size-width-9,
+      '10': $system-size-width-10,
+      '11': $system-size-width-11,
+      '12': $system-size-width-12,
+      '13': $system-size-width-13,
+      '14': $system-size-width-14,
+      '16': $system-size-width-16,
+      '20': $system-size-width-20,
+      '24': $system-size-width-24,
+      '28': $system-size-width-28,
+      '32': $system-size-width-32,
+      '36': $system-size-width-36,
+      '40': $system-size-width-40,
+      '44': $system-size-width-44,
+      '48': $system-size-width-48,
+      '50': $system-size-width-50,
+      '52': $system-size-width-52,
+      '56': $system-size-width-56,
+      '60': $system-size-width-60,
+      '64': $system-size-width-64,
+      '72': $system-size-width-72,
+      '80': $system-size-width-80,
+      '96': $system-size-width-96,
+      '110': $system-size-width-110,
+      '120': $system-size-width-120,
+      '140': $system-size-width-140,
+      '160': $system-size-width-160,
+      '180': $system-size-width-180,
+      'none': $system-size-width-none,
+      '1px': $system-size-width-1px,
+      '2px': $system-size-width-2px,
+      '3px': $system-size-width-3px,
+      '1s': $system-size-width-1s,
+      '2s': $system-size-width-2s,
+      '3s': $system-size-width-3s,
+      '4s': $system-size-width-4s,
+      '5s': $system-size-width-5s
+    ),
+    'height': (
+      '1': $system-size-height-1,
+      '2': $system-size-height-2,
+      '3': $system-size-height-3,
+      '4': $system-size-height-4,
+      '5': $system-size-height-5,
+      '6': $system-size-height-6,
+      '7': $system-size-height-7,
+      '8': $system-size-height-8,
+      '9': $system-size-height-9,
+      '10': $system-size-height-10,
+      '11': $system-size-height-11,
+      '12': $system-size-height-12,
+      '13': $system-size-height-13,
+      '14': $system-size-height-14,
+      '16': $system-size-height-16,
+      '20': $system-size-height-20,
+      '24': $system-size-height-24,
+      '28': $system-size-height-28,
+      '32': $system-size-height-32,
+      '36': $system-size-height-36,
+      '40': $system-size-height-40,
+      '44': $system-size-height-44,
+      '48': $system-size-height-48,
+      '50': $system-size-height-50,
+      '52': $system-size-height-52,
+      '56': $system-size-height-56,
+      '60': $system-size-height-60,
+      '64': $system-size-height-64,
+      '72': $system-size-height-72,
+      '80': $system-size-height-80,
+      '96': $system-size-height-96,
+      '110': $system-size-height-110,
+      '120': $system-size-height-120,
+      '140': $system-size-height-140,
+      '160': $system-size-height-160,
+      '180': $system-size-height-180,
+      'none': $system-size-height-none,
+      '1px': $system-size-height-1px,
+      '2px': $system-size-height-2px,
+      '3px': $system-size-height-3px,
+      '1s': $system-size-height-1s,
+      '2s': $system-size-height-2s,
+      '3s': $system-size-height-3s,
+      '4s': $system-size-height-4s,
+      '5s': $system-size-height-5s
+    )
+  ),
+  'typography': (
+    'font-family': (
+      'font-sans': $system-typography-font-family-font-sans,
+      'font-serif': $system-typography-font-family-font-serif,
+      'font-mono': $system-typography-font-family-font-mono
+    ),
+    'font-weight': (
+      'regular': $system-typography-font-weight-regular,
+      'regular-italic': (
+        'weight': $system-typography-font-weight-regular-italic-weight,
+        'style': $system-typography-font-weight-regular-italic-style
+      ),
+      'medium': $system-typography-font-weight-medium,
+      'medium-italic': (
+        'weight': $system-typography-font-weight-medium-italic-weight,
+        'style': $system-typography-font-weight-medium-italic-style
+      ),
+      'semibold': $system-typography-font-weight-semibold,
+      'semibold-italic': (
+        'weight': $system-typography-font-weight-semibold-italic-weight,
+        'style': $system-typography-font-weight-semibold-italic-style
+      ),
+      'bold': $system-typography-font-weight-bold,
+      'bold-italic': (
+        'weight': $system-typography-font-weight-bold-italic-weight,
+        'style': $system-typography-font-weight-bold-italic-style
+      )
+    ),
+    'font-size': (
+      'text-xs': $system-typography-font-size-text-xs,
+      'text-sm': $system-typography-font-size-text-sm,
+      'text-base': $system-typography-font-size-text-base,
+      'text-lg': $system-typography-font-size-text-lg,
+      'text-xl': $system-typography-font-size-text-xl,
+      'text-2xl': $system-typography-font-size-text-2xl,
+      'text-3xl': $system-typography-font-size-text-3xl,
+      'text-4xl': $system-typography-font-size-text-4xl,
+      'text-5xl': $system-typography-font-size-text-5xl,
+      'text-6xl': $system-typography-font-size-text-6xl,
+      'text-7xl': $system-typography-font-size-text-7xl
+    ),
+    'letter-spacing': (
+      'tight': $system-typography-letter-spacing-tight,
+      'normal': $system-typography-letter-spacing-normal,
+      'wide': $system-typography-letter-spacing-wide
+    ),
+    'text-case': (
+      'none': $system-typography-text-case-none,
+      'uppercase': $system-typography-text-case-uppercase
+    ),
+    'text-decoration': (
+      'none': $system-typography-text-decoration-none,
+      'underline': $system-typography-text-decoration-underline
+    )
+  ),
+  'line-height': (
+    'leading-xs': $system-line-height-leading-xs,
+    'leading-sm': $system-line-height-leading-sm,
+    'leading-base': $system-line-height-leading-base,
+    'leading-lg': $system-line-height-leading-lg,
+    'leading-xl': $system-line-height-leading-xl,
+    'leading-2xl': $system-line-height-leading-2xl,
+    'leading-3xl': $system-line-height-leading-3xl,
+    'leading-4xl': $system-line-height-leading-4xl,
+    'leading-5xl': $system-line-height-leading-5xl,
+    'leading-6xl': $system-line-height-leading-6xl,
+    'leading-7xl': $system-line-height-leading-7xl
+  ),
+  'system': (
+    'utility': (
+      'blue': (
+        '50': $system-system-utility-blue-50,
+        '100': $system-system-utility-blue-100,
+        '200': $system-system-utility-blue-200,
+        '300': $system-system-utility-blue-300,
+        '400': $system-system-utility-blue-400,
+        '500': $system-system-utility-blue-500,
+        '600': $system-system-utility-blue-600,
+        '700': $system-system-utility-blue-700
+      ),
+      'brand': (
+        '50': $system-system-utility-brand-50,
+        '100': $system-system-utility-brand-100,
+        '200': $system-system-utility-brand-200,
+        '300': $system-system-utility-brand-300,
+        '400': $system-system-utility-brand-400,
+        '500': $system-system-utility-brand-500,
+        '600': $system-system-utility-brand-600,
+        '700': $system-system-utility-brand-700,
+        '800': $system-system-utility-brand-800,
+        '900': $system-system-utility-brand-900
+      ),
+      'gray': (
+        '50': $system-system-utility-gray-50,
+        '100': $system-system-utility-gray-100,
+        '200': $system-system-utility-gray-200,
+        '300': $system-system-utility-gray-300,
+        '400': $system-system-utility-gray-400,
+        '500': $system-system-utility-gray-500,
+        '600': $system-system-utility-gray-600,
+        '700': $system-system-utility-gray-700,
+        '800': $system-system-utility-gray-800,
+        '900': $system-system-utility-gray-900
+      ),
+      'error': (
+        '50': $system-system-utility-error-50,
+        '100': $system-system-utility-error-100,
+        '200': $system-system-utility-error-200,
+        '300': $system-system-utility-error-300,
+        '400': $system-system-utility-error-400,
+        '500': $system-system-utility-error-500,
+        '600': $system-system-utility-error-600,
+        '700': $system-system-utility-error-700
+      ),
+      'warning': (
+        '50': $system-system-utility-warning-50,
+        '100': $system-system-utility-warning-100,
+        '200': $system-system-utility-warning-200,
+        '300': $system-system-utility-warning-300,
+        '400': $system-system-utility-warning-400,
+        '500': $system-system-utility-warning-500,
+        '600': $system-system-utility-warning-600,
+        '700': $system-system-utility-warning-700
+      ),
+      'success': (
+        '50': $system-system-utility-success-50,
+        '100': $system-system-utility-success-100,
+        '200': $system-system-utility-success-200,
+        '300': $system-system-utility-success-300,
+        '400': $system-system-utility-success-400,
+        '500': $system-system-utility-success-500,
+        '600': $system-system-utility-success-600,
+        '700': $system-system-utility-success-700
+      ),
+      'blue-dark': (
+        '50': $system-system-utility-blue-dark-50,
+        '100': $system-system-utility-blue-dark-100,
+        '200': $system-system-utility-blue-dark-200,
+        '300': $system-system-utility-blue-dark-300,
+        '400': $system-system-utility-blue-dark-400,
+        '500': $system-system-utility-blue-dark-500,
+        '600': $system-system-utility-blue-dark-600,
+        '700': $system-system-utility-blue-dark-700
+      ),
+      'indigo': (
+        '50': $system-system-utility-indigo-50,
+        '100': $system-system-utility-indigo-100,
+        '200': $system-system-utility-indigo-200,
+        '300': $system-system-utility-indigo-300,
+        '400': $system-system-utility-indigo-400,
+        '500': $system-system-utility-indigo-500,
+        '600': $system-system-utility-indigo-600,
+        '700': $system-system-utility-indigo-700
+      ),
+      'fuchsia': (
+        '50': $system-system-utility-fuchsia-50,
+        '100': $system-system-utility-fuchsia-100,
+        '200': $system-system-utility-fuchsia-200,
+        '300': $system-system-utility-fuchsia-300,
+        '400': $system-system-utility-fuchsia-400,
+        '500': $system-system-utility-fuchsia-500,
+        '600': $system-system-utility-fuchsia-600,
+        '700': $system-system-utility-fuchsia-700
+      ),
+      'pink': (
+        '50': $system-system-utility-pink-50,
+        '100': $system-system-utility-pink-100,
+        '200': $system-system-utility-pink-200,
+        '300': $system-system-utility-pink-300,
+        '400': $system-system-utility-pink-400,
+        '500': $system-system-utility-pink-500,
+        '600': $system-system-utility-pink-600,
+        '700': $system-system-utility-pink-700
+      ),
+      'purple': (
+        '50': $system-system-utility-purple-50,
+        '100': $system-system-utility-purple-100,
+        '200': $system-system-utility-purple-200,
+        '300': $system-system-utility-purple-300,
+        '400': $system-system-utility-purple-400,
+        '500': $system-system-utility-purple-500,
+        '600': $system-system-utility-purple-600,
+        '700': $system-system-utility-purple-700
+      ),
+      'orange': (
+        '50': $system-system-utility-orange-50,
+        '100': $system-system-utility-orange-100,
+        '200': $system-system-utility-orange-200,
+        '300': $system-system-utility-orange-300,
+        '400': $system-system-utility-orange-400,
+        '500': $system-system-utility-orange-500,
+        '600': $system-system-utility-orange-600,
+        '700': $system-system-utility-orange-700
+      ),
+      'gray-blue': (
+        '50': $system-system-utility-gray-blue-50,
+        '100': $system-system-utility-gray-blue-100,
+        '200': $system-system-utility-gray-blue-200,
+        '300': $system-system-utility-gray-blue-300,
+        '400': $system-system-utility-gray-blue-400,
+        '500': $system-system-utility-gray-blue-500,
+        '600': $system-system-utility-gray-blue-600,
+        '700': $system-system-utility-gray-blue-700
+      )
+    ),
+    'effects': (
+      'shadows': (
+        'xs': $system-system-effects-shadows-xs,
+        'sm-01': $system-system-effects-shadows-sm-01,
+        'sm-02': $system-system-effects-shadows-sm-02,
+        'md-01': $system-system-effects-shadows-md-01,
+        'md-02': $system-system-effects-shadows-md-02,
+        'lg-01': $system-system-effects-shadows-lg-01,
+        'lg-02': $system-system-effects-shadows-lg-02,
+        'xl-01': $system-system-effects-shadows-xl-01,
+        'xl-02': $system-system-effects-shadows-xl-02,
+        '2xl': $system-system-effects-shadows-2xl,
+        '3xl': $system-system-effects-shadows-3xl,
+        'border-inner-01': $system-system-effects-shadows-border-inner-01,
+        'border-inner-02': $system-system-effects-shadows-border-inner-02
+      ),
+      'focus-rings': (
+        'brand': $system-system-effects-focus-rings-brand,
+        'error': $system-system-effects-focus-rings-error
+      )
+    ),
+    'neutral': (
+      'background': (
+        'primary': (
+          'rest': $system-system-neutral-background-primary-rest,
+          'hover': $system-system-neutral-background-primary-hover,
+          'focus': $system-system-neutral-background-primary-focus,
+          'active': $system-system-neutral-background-primary-active
+        ),
+        'secondary': (
+          'rest': $system-system-neutral-background-secondary-rest,
+          'rest-subtle': $system-system-neutral-background-secondary-rest-subtle,
+          'hover': $system-system-neutral-background-secondary-hover,
+          'focus': $system-system-neutral-background-secondary-focus,
+          'active': $system-system-neutral-background-secondary-active
+        ),
+        'tertiary': (
+          'rest': $system-system-neutral-background-tertiary-rest
+        ),
+        'quaternary': (
+          'rest': $system-system-neutral-background-quaternary-rest
+        ),
+        'inverted': (
+          'primary': (
+            'rest': $system-system-neutral-background-inverted-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-neutral-background-inverted-secondary-rest
+          )
+        ),
+        'disabled': (
+          'rest': $system-system-neutral-background-disabled-rest,
+          'rest-subtle': $system-system-neutral-background-disabled-rest-subtle
+        )
+      ),
+      'foreground': (
+        'primary': (
+          'rest': $system-system-neutral-foreground-primary-rest,
+          'rest-solid': $system-system-neutral-foreground-primary-rest-solid
+        ),
+        'secondary': (
+          'rest': $system-system-neutral-foreground-secondary-rest
+        ),
+        'tertiary': (
+          'rest': $system-system-neutral-foreground-tertiary-rest
+        ),
+        'quaternary': (
+          'rest': $system-system-neutral-foreground-quaternary-rest
+        ),
+        'quinary': (
+          'rest': $system-system-neutral-foreground-quinary-rest
+        ),
+        'senary': (
+          'rest': $system-system-neutral-foreground-senary-rest
+        ),
+        'on-color': (
+          'white': $system-system-neutral-foreground-on-color-white,
+          'black': $system-system-neutral-foreground-on-color-black
+        ),
+        'placeholder': (
+          'rest': $system-system-neutral-foreground-placeholder-rest,
+          'rest-subtle': $system-system-neutral-foreground-placeholder-rest-subtle
+        ),
+        'disabled': (
+          'rest': $system-system-neutral-foreground-disabled-rest,
+          'rest-solid': $system-system-neutral-foreground-disabled-rest-solid,
+          'rest-subtle': $system-system-neutral-foreground-disabled-rest-subtle,
+          'rest-muted': $system-system-neutral-foreground-disabled-rest-muted
+        )
+      ),
+      'border': (
+        'primary': (
+          'rest': $system-system-neutral-border-primary-rest,
+          'hover': $system-system-neutral-border-primary-hover
+        ),
+        'secondary': (
+          'rest': $system-system-neutral-border-secondary-rest,
+          'hover': $system-system-neutral-border-secondary-hover
+        ),
+        'tertiary': (
+          'rest': $system-system-neutral-border-tertiary-rest
+        ),
+        'disabled': (
+          'rest': $system-system-neutral-border-disabled-rest,
+          'rest-subtle': $system-system-neutral-border-disabled-rest-subtle
+        ),
+        'divider': (
+          'rest': $system-system-neutral-border-divider-rest
+        )
+      )
+    ),
+    'brand': (
+      'background': (
+        'primary': (
+          'rest': $system-system-brand-background-primary-rest,
+          'hover': $system-system-brand-background-primary-hover,
+          'focus': $system-system-brand-background-primary-focus,
+          'active': $system-system-brand-background-primary-active
+        ),
+        'secondary': (
+          'rest': $system-system-brand-background-secondary-rest,
+          'rest-subtle': $system-system-brand-background-secondary-rest-subtle
+        ),
+        'tertiary': (
+          'rest': $system-system-brand-background-tertiary-rest
+        ),
+        'quaternary': (
+          'rest': $system-system-brand-background-quaternary-rest
+        ),
+        'inverted': (
+          'primary': (
+            'rest': $system-system-brand-background-inverted-primary-rest,
+            'hover': $system-system-brand-background-inverted-primary-hover,
+            'focus': $system-system-brand-background-inverted-primary-focus,
+            'active': $system-system-brand-background-inverted-primary-active
+          ),
+          'secondary': (
+            'rest': $system-system-brand-background-inverted-secondary-rest,
+            'rest-subtle': $system-system-brand-background-inverted-secondary-rest-subtle
+          )
+        )
+      ),
+      'foreground': (
+        'primary': (
+          'rest': $system-system-brand-foreground-primary-rest,
+          'rest-subtle': $system-system-brand-foreground-primary-rest-subtle
+        ),
+        'secondary': (
+          'rest': $system-system-brand-foreground-secondary-rest
+        ),
+        'tertiary': (
+          'rest': $system-system-brand-foreground-tertiary-rest
+        ),
+        'inverted': (
+          'primary': (
+            'rest': $system-system-brand-foreground-inverted-primary-rest
+          )
+        )
+      ),
+      'border': (
+        'primary': (
+          'rest': $system-system-brand-border-primary-rest,
+          'rest-subtle': $system-system-brand-border-primary-rest-subtle
+        )
+      )
+    ),
+    'status': (
+      'error': (
+        'background': (
+          'primary': (
+            'rest': $system-system-status-error-background-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-error-background-secondary-rest
+          ),
+          'inverted': (
+            'primary': (
+              'rest': $system-system-status-error-background-inverted-primary-rest,
+              'hover': $system-system-status-error-background-inverted-primary-hover
+            )
+          )
+        ),
+        'foreground': (
+          'primary': (
+            'rest': $system-system-status-error-foreground-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-error-foreground-secondary-rest
+          ),
+          'tertiary': (
+            'rest': $system-system-status-error-foreground-tertiary-rest
+          )
+        ),
+        'border': (
+          'primary': (
+            'rest': $system-system-status-error-border-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-error-border-secondary-rest,
+            'hover': $system-system-status-error-border-secondary-hover
+          )
+        )
+      ),
+      'success': (
+        'background': (
+          'primary': (
+            'rest': $system-system-status-success-background-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-success-background-secondary-rest
+          ),
+          'inverted': (
+            'primary': (
+              'rest': $system-system-status-success-background-inverted-primary-rest,
+              'hover': $system-system-status-success-background-inverted-primary-hover
+            )
+          )
+        ),
+        'foreground': (
+          'primary': (
+            'rest': $system-system-status-success-foreground-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-success-foreground-secondary-rest
+          ),
+          'tertiary': (
+            'rest': $system-system-status-success-foreground-tertiary-rest
+          )
+        ),
+        'border': (
+          'primary': (
+            'rest': $system-system-status-success-border-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-success-border-secondary-rest,
+            'hover': $system-system-status-success-border-secondary-hover
+          )
+        )
+      ),
+      'warning': (
+        'background': (
+          'primary': (
+            'rest': $system-system-status-warning-background-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-warning-background-secondary-rest
+          ),
+          'inverted': (
+            'primary': (
+              'rest': $system-system-status-warning-background-inverted-primary-rest,
+              'hover': $system-system-status-warning-background-inverted-primary-hover
+            )
+          )
+        ),
+        'foreground': (
+          'primary': (
+            'rest': $system-system-status-warning-foreground-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-warning-foreground-secondary-rest
+          ),
+          'tertiary': (
+            'rest': $system-system-status-warning-foreground-tertiary-rest
+          )
+        ),
+        'border': (
+          'primary': (
+            'rest': $system-system-status-warning-border-primary-rest
+          ),
+          'secondary': (
+            'rest': $system-system-status-warning-border-secondary-rest,
+            'hover': $system-system-status-warning-border-secondary-hover
+          )
+        )
+      )
+    ),
+    'spacing': (
+      'margin': (
+        '1': $system-system-spacing-margin-1,
+        '2': $system-system-spacing-margin-2,
+        '3': $system-system-spacing-margin-3,
+        '4': $system-system-spacing-margin-4,
+        '5': $system-system-spacing-margin-5,
+        '6': $system-system-spacing-margin-6,
+        '8': $system-system-spacing-margin-8,
+        '9': $system-system-spacing-margin-9,
+        '10': $system-system-spacing-margin-10,
+        '11': $system-system-spacing-margin-11,
+        '12': $system-system-spacing-margin-12,
+        '14': $system-system-spacing-margin-14,
+        '16': $system-system-spacing-margin-16,
+        '20': $system-system-spacing-margin-20,
+        '24': $system-system-spacing-margin-24,
+        '28': $system-system-spacing-margin-28,
+        '32': $system-system-spacing-margin-32,
+        '36': $system-system-spacing-margin-36,
+        '40': $system-system-spacing-margin-40,
+        '50': $system-system-spacing-margin-50,
+        '60': $system-system-spacing-margin-60,
+        '2px': $system-system-spacing-margin-2px,
+        '1s': $system-system-spacing-margin-1s,
+        '3px': $system-system-spacing-margin-3px,
+        '2s': $system-system-spacing-margin-2s
+      ),
+      'padding': (
+        '1': $system-system-spacing-padding-1,
+        '2': $system-system-spacing-padding-2,
+        '3': $system-system-spacing-padding-3,
+        '4': $system-system-spacing-padding-4,
+        '5': $system-system-spacing-padding-5,
+        '6': $system-system-spacing-padding-6,
+        '7': $system-system-spacing-padding-7,
+        '8': $system-system-spacing-padding-8,
+        '9': $system-system-spacing-padding-9,
+        '10': $system-system-spacing-padding-10,
+        '11': $system-system-spacing-padding-11,
+        '12': $system-system-spacing-padding-12,
+        '14': $system-system-spacing-padding-14,
+        '16': $system-system-spacing-padding-16,
+        '20': $system-system-spacing-padding-20,
+        '24': $system-system-spacing-padding-24,
+        '28': $system-system-spacing-padding-28,
+        '32': $system-system-spacing-padding-32,
+        '36': $system-system-spacing-padding-36,
+        '40': $system-system-spacing-padding-40,
+        '44': $system-system-spacing-padding-44,
+        '48': $system-system-spacing-padding-48,
+        '52': $system-system-spacing-padding-52,
+        '56': $system-system-spacing-padding-56,
+        '60': $system-system-spacing-padding-60,
+        '64': $system-system-spacing-padding-64,
+        '72': $system-system-spacing-padding-72,
+        '80': $system-system-spacing-padding-80,
+        '96': $system-system-spacing-padding-96,
+        '2px': $system-system-spacing-padding-2px,
+        '1s': $system-system-spacing-padding-1s,
+        '2s': $system-system-spacing-padding-2s,
+        '3s': $system-system-spacing-padding-3s,
+        '4s': $system-system-spacing-padding-4s,
+        '5s': $system-system-spacing-padding-5s,
+        '3px': $system-system-spacing-padding-3px
+      ),
+      'space-between': (
+        '1': $system-system-spacing-space-between-1,
+        '2': $system-system-spacing-space-between-2,
+        '3': $system-system-spacing-space-between-3,
+        '4': $system-system-spacing-space-between-4,
+        '5': $system-system-spacing-space-between-5,
+        '6': $system-system-spacing-space-between-6,
+        '7': $system-system-spacing-space-between-7,
+        '8': $system-system-spacing-space-between-8,
+        '9': $system-system-spacing-space-between-9,
+        '10': $system-system-spacing-space-between-10,
+        '11': $system-system-spacing-space-between-11,
+        '12': $system-system-spacing-space-between-12,
+        '13': $system-system-spacing-space-between-13,
+        '14': $system-system-spacing-space-between-14,
+        '16': $system-system-spacing-space-between-16,
+        '20': $system-system-spacing-space-between-20,
+        '2px': $system-system-spacing-space-between-2px,
+        '1s': $system-system-spacing-space-between-1s,
+        '2s': $system-system-spacing-space-between-2s
+      )
+    ),
+    'size': (
+      'width': (
+        '1': $system-system-size-width-1,
+        '2': $system-system-size-width-2,
+        '3': $system-system-size-width-3,
+        '4': $system-system-size-width-4,
+        '5': $system-system-size-width-5,
+        '6': $system-system-size-width-6,
+        '7': $system-system-size-width-7,
+        '8': $system-system-size-width-8,
+        '9': $system-system-size-width-9,
+        '10': $system-system-size-width-10,
+        '11': $system-system-size-width-11,
+        '12': $system-system-size-width-12,
+        '14': $system-system-size-width-14,
+        '16': $system-system-size-width-16,
+        '20': $system-system-size-width-20,
+        '24': $system-system-size-width-24,
+        '28': $system-system-size-width-28,
+        '32': $system-system-size-width-32,
+        '36': $system-system-size-width-36,
+        '40': $system-system-size-width-40,
+        '44': $system-system-size-width-44,
+        '48': $system-system-size-width-48,
+        '52': $system-system-size-width-52,
+        '56': $system-system-size-width-56,
+        '60': $system-system-size-width-60,
+        '64': $system-system-size-width-64,
+        '72': $system-system-size-width-72,
+        '80': $system-system-size-width-80,
+        '96': $system-system-size-width-96,
+        '110': $system-system-size-width-110,
+        '120': $system-system-size-width-120,
+        '5s': $system-system-size-width-5s,
+        '4s': $system-system-size-width-4s,
+        '3s': $system-system-size-width-3s,
+        '2px': $system-system-size-width-2px
+      ),
+      'height': (
+        '1': $system-system-size-height-1,
+        '2': $system-system-size-height-2,
+        '3': $system-system-size-height-3,
+        '4': $system-system-size-height-4,
+        '5': $system-system-size-height-5,
+        '6': $system-system-size-height-6,
+        '7': $system-system-size-height-7,
+        '8': $system-system-size-height-8,
+        '9': $system-system-size-height-9,
+        '10': $system-system-size-height-10,
+        '11': $system-system-size-height-11,
+        '12': $system-system-size-height-12,
+        '14': $system-system-size-height-14,
+        '16': $system-system-size-height-16,
+        '20': $system-system-size-height-20,
+        '24': $system-system-size-height-24,
+        '28': $system-system-size-height-28,
+        '32': $system-system-size-height-32,
+        '36': $system-system-size-height-36,
+        '40': $system-system-size-height-40,
+        '44': $system-system-size-height-44,
+        '48': $system-system-size-height-48,
+        '52': $system-system-size-height-52,
+        '56': $system-system-size-height-56,
+        '60': $system-system-size-height-60,
+        '64': $system-system-size-height-64,
+        '72': $system-system-size-height-72,
+        '80': $system-system-size-height-80,
+        '96': $system-system-size-height-96,
+        '110': $system-system-size-height-110,
+        '120': $system-system-size-height-120,
+        '5s': $system-system-size-height-5s,
+        '4s': $system-system-size-height-4s,
+        '3s': $system-system-size-height-3s,
+        '2px': $system-system-size-height-2px
+      )
+    ),
+    'border': (
+      'stroke': (
+        'none': $system-system-border-stroke-none,
+        'thin': $system-system-border-stroke-thin,
+        'regular': $system-system-border-stroke-regular,
+        'solide': $system-system-border-stroke-solide
+      )
+    ),
+    'typography': (
+      'heading': (
+        '6xl': $system-system-typography-heading-6xl,
+        '5xl': $system-system-typography-heading-5xl,
+        '4xl': $system-system-typography-heading-4xl,
+        '3xl': $system-system-typography-heading-3xl,
+        '2xl': $system-system-typography-heading-2xl,
+        'xl': $system-system-typography-heading-xl,
+        'lg': $system-system-typography-heading-lg,
+        'md': $system-system-typography-heading-md,
+        'sm': $system-system-typography-heading-sm,
+        'xs': $system-system-typography-heading-xs,
+        '2xs': $system-system-typography-heading-2xs
+      ),
+      'body': (
+        '2xl': $system-system-typography-body-2xl,
+        'xl': $system-system-typography-body-xl,
+        'lg': $system-system-typography-body-lg,
+        'lg-underlined': $system-system-typography-body-lg-underlined,
+        'md': $system-system-typography-body-md,
+        'sm': $system-system-typography-body-sm,
+        'sm-underlined': $system-system-typography-body-sm-underlined,
+        'xs': $system-system-typography-body-xs,
+        'xs-underlined': $system-system-typography-body-xs-underlined
+      ),
+      'caption': (
+        'md': $system-system-typography-caption-md,
+        'md-underline': $system-system-typography-caption-md-underline,
+        'md-uppercase': $system-system-typography-caption-md-uppercase,
+        'sm': $system-system-typography-caption-sm,
+        'sm-underline': $system-system-typography-caption-sm-underline,
+        'sm-uppercase': $system-system-typography-caption-sm-uppercase
+      )
+    )
+  ),
+  'syste': (
+    'border': (
+      'radius': (
+        'none': $system-syste-border-radius-none,
+        '2xs': $system-syste-border-radius-2xs,
+        'xs': $system-syste-border-radius-xs,
+        'sm': $system-syste-border-radius-sm,
+        'md': $system-syste-border-radius-md,
+        'lg': $system-syste-border-radius-lg,
+        'xl': $system-syste-border-radius-xl,
+        '2xl': $system-syste-border-radius-2xl,
+        '3xl': $system-syste-border-radius-3xl,
+        '4xl': $system-syste-border-radius-4xl,
+        'full': $system-syste-border-radius-full
+      )
+    )
+  ),
+  'tokenSetOrder': (
+    '0': 'foundation/colors',
+    '1': 'foundation/spacing',
+    '2': 'foundation/typography',
+    '3': 'semantic/colors',
+    '4': 'semantic/spacing',
+    '5': 'semantic/typography'
+  )
+);
