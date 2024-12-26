@@ -342,6 +342,7 @@ $system-focus-rings-error-shadow-xs: 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0
 // 
 // This can be replaced with focus-ring-error-shadow-xs if you prefer a flat style.
 $system-focus-rings-error-shadow-xs-border: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438 !default;
+$system-test: #00000 !default;
 $system-spacing-margin-1: 0.25rem !default;
 $system-spacing-margin-2: 0.5rem !default;
 $system-spacing-margin-3: 0.75rem !default;
@@ -1423,6 +1424,7 @@ $tokens: (
     'error-shadow-xs': $system-focus-rings-error-shadow-xs,
     'error-shadow-xs-border': $system-focus-rings-error-shadow-xs-border
   ),
+  'test': $system-test,
   'spacing': (
     'margin': (
       '1': $system-spacing-margin-1,
