@@ -11,7 +11,7 @@
     "variables-map.scss"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@markhuang19994"
+    "registry": "https://npm.pkg.github.com/@ylchen1215"
   },
   "license": "MIT"
 }
