@@ -3,9 +3,9 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-$system-colors-neutral-white: #ffffff !default;
-$system-colors-neutral-black: #000000 !default;
-$system-colors-neutral-transparent: rgba(255, 255, 255, 0) !default;
+$system-colors-neutral-base-white: #ffffff !default;
+$system-colors-neutral-base-black: #000000 !default;
+$system-colors-neutral-base-transparent: rgba(255, 255, 255, 0) !default;
 $system-colors-neutral-gray-25: #fcfcfd !default;
 $system-colors-neutral-gray-50: #f9fafb !default;
 $system-colors-neutral-gray-100: #f2f4f7 !default;
@@ -749,7 +749,7 @@ $system-utility-gray-blue-600: $system-colors-neutral-gray-blue-600 !default;
 $system-utility-gray-blue-700: $system-colors-neutral-gray-blue-700 !default;
 $system-effects-focus-rings-brand: $system-colors-shared-blue-light-500 !default;
 $system-effects-focus-rings-error: $system-colors-shared-red-500 !default;
-$system-neutral-background-primary-rest: $system-colors-neutral-white !default;
+$system-neutral-background-primary-rest: $system-colors-neutral-base-white !default;
 $system-neutral-background-primary-hover: $system-colors-neutral-gray-100 !default;
 $system-neutral-background-primary-focus: $system-colors-neutral-gray-50 !default;
 $system-neutral-background-primary-active: $system-colors-neutral-gray-50 !default;
@@ -771,7 +771,7 @@ $system-neutral-foreground-tertiary-rest: $system-colors-neutral-gray-600 !defau
 $system-neutral-foreground-quaternary-rest: $system-colors-neutral-gray-500 !default;
 $system-neutral-foreground-quinary-rest: $system-colors-neutral-gray-400 !default;
 $system-neutral-foreground-senary-rest: $system-colors-neutral-gray-300 !default;
-$system-neutral-foreground-on-color-white: $system-colors-neutral-white !default;
+$system-neutral-foreground-on-color-white: $system-colors-neutral-base-white !default;
 $system-neutral-foreground-on-color-black: $system-colors-neutral-gray-950 !default;
 $system-neutral-foreground-placeholder-rest: $system-colors-neutral-gray-500 !default;
 $system-neutral-foreground-placeholder-rest-subtle: $system-colors-neutral-gray-300 !default;
@@ -787,7 +787,7 @@ $system-neutral-border-tertiary-rest: $system-colors-neutral-gray-100 !default;
 $system-neutral-border-disabled-rest: $system-colors-neutral-gray-300 !default;
 $system-neutral-border-disabled-rest-subtle: $system-colors-neutral-gray-200 !default;
 $system-neutral-border-divider-rest: $system-colors-neutral-gray-200 !default;
-$system-brand-background-primary-rest: $system-colors-neutral-white !default;
+$system-brand-background-primary-rest: $system-colors-neutral-base-white !default;
 $system-brand-background-primary-hover: $system-colors-shared-blue-light-50 !default;
 $system-brand-background-primary-focus: $system-colors-shared-blue-light-25 !default;
 $system-brand-background-primary-active: $system-colors-shared-blue-light-25 !default;
@@ -1033,9 +1033,11 @@ $system-web-typography-caption-sm-uppercase: $system-typography-font-weight-regu
 $tokens: (
   'colors': (
     'neutral': (
-      'white': $system-colors-neutral-white,
-      'black': $system-colors-neutral-black,
-      'transparent': $system-colors-neutral-transparent,
+      'base': (
+        'white': $system-colors-neutral-base-white,
+        'black': $system-colors-neutral-base-black,
+        'transparent': $system-colors-neutral-base-transparent
+      ),
       'gray': (
         '25': $system-colors-neutral-gray-25,
         '50': $system-colors-neutral-gray-50,

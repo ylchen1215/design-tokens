@@ -3,9 +3,9 @@
  */
 
 :root {
-  --system-colors-neutral-white: #ffffff;
-  --system-colors-neutral-black: #000000;
-  --system-colors-neutral-transparent: rgba(255, 255, 255, 0);
+  --system-colors-neutral-base-white: #ffffff;
+  --system-colors-neutral-base-black: #000000;
+  --system-colors-neutral-base-transparent: rgba(255, 255, 255, 0);
   --system-colors-neutral-gray-25: #fcfcfd;
   --system-colors-neutral-gray-50: #f9fafb;
   --system-colors-neutral-gray-100: #f2f4f7;
@@ -755,7 +755,7 @@
   --system-utility-gray-blue-700: var(--system-colors-neutral-gray-blue-700, #363f72);
   --system-effects-focus-rings-brand: var(--system-colors-shared-blue-light-500, #0ba5ec);
   --system-effects-focus-rings-error: var(--system-colors-shared-red-500, #f04438);
-  --system-neutral-background-primary-rest: var(--system-colors-neutral-white, #ffffff);
+  --system-neutral-background-primary-rest: var(--system-colors-neutral-base-white, #ffffff);
   --system-neutral-background-primary-hover: var(--system-colors-neutral-gray-100, #f2f4f7);
   --system-neutral-background-primary-focus: var(--system-colors-neutral-gray-50, #f9fafb);
   --system-neutral-background-primary-active: var(--system-colors-neutral-gray-50, #f9fafb);
@@ -777,7 +777,7 @@
   --system-neutral-foreground-quaternary-rest: var(--system-colors-neutral-gray-500, #667085);
   --system-neutral-foreground-quinary-rest: var(--system-colors-neutral-gray-400, #98a2b3);
   --system-neutral-foreground-senary-rest: var(--system-colors-neutral-gray-300, #d0d5dd);
-  --system-neutral-foreground-on-color-white: var(--system-colors-neutral-white, #ffffff);
+  --system-neutral-foreground-on-color-white: var(--system-colors-neutral-base-white, #ffffff);
   --system-neutral-foreground-on-color-black: var(--system-colors-neutral-gray-950, #0c111d);
   --system-neutral-foreground-placeholder-rest: var(--system-colors-neutral-gray-500, #667085);
   --system-neutral-foreground-placeholder-rest-subtle: var(--system-colors-neutral-gray-300, #d0d5dd);
@@ -793,7 +793,7 @@
   --system-neutral-border-disabled-rest: var(--system-colors-neutral-gray-300, #d0d5dd);
   --system-neutral-border-disabled-rest-subtle: var(--system-colors-neutral-gray-200, #e4e7ec);
   --system-neutral-border-divider-rest: var(--system-colors-neutral-gray-200, #e4e7ec);
-  --system-brand-background-primary-rest: var(--system-colors-neutral-white, #ffffff);
+  --system-brand-background-primary-rest: var(--system-colors-neutral-base-white, #ffffff);
   --system-brand-background-primary-hover: var(--system-colors-shared-blue-light-50, #f0f9ff);
   --system-brand-background-primary-focus: var(--system-colors-shared-blue-light-25, #f5fbff);
   --system-brand-background-primary-active: var(--system-colors-shared-blue-light-25, #f5fbff);
